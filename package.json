@@ -1,10 +1,9 @@
 {
   "name": "node-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node REST API quiniela",
-  "main": "app.ts",
   "scripts": {
-    "start": "node --unhandled-rejections=strict ./dist/app.js",
+    "start": "node ./dist/app.js",
     "debug": "SET DEBUG=* && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
