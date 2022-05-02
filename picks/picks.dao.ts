@@ -1,0 +1,52 @@
+import mongooseService from "../common/services/mongoose.service";
+import debug from "debug";
+import { picksSchema } from "./picks.schema";
+import mongoose from "mongoose";
+import { userPicks } from "./picks.dto";
+
+const log: debug.IDebugger = debug('app: picks dao');
+
+export class PicksDao{
+   //Schema
+    picksSchema = picksSchema.userPicks;
+    
+   //Models
+    userPicksUpload = mongooseService.getMongoose().model('picks', this.picksSchema);
+    
+    //DB operations
+    async uploadPicks(userId: string, picksData: userPicks){
+        //insertamos datos que se enviaron en el body del PUT
+        //sin el _id:false mongoose intenta meter otro _id y falla porque es inmutable
+        const picks = new this.userPicksUpload({
+            ...picksData,
+        },{_id:false})                                                      
+        //find one and update with upsert crea el documento si no existe, lo actualiza si ya existe
+        // https://mongoosejs.com/docs/tutorials/findoneandupdate.html
+        const result = this.userPicksUpload.findOneAndUpdate(
+            {userId:userId,'race.race_id':picksData.race.race_id },
+            {$set:picks},
+            {upsert: true, new:true}
+              );
+        return result;
+    }
+
+    async getUserPicks(userId: string){
+        return this.userPicksUpload.find({userId: userId}).exec();
+    }
+
+    async getUserPicksByRace(userId: string, raceId:string){
+        try{
+            const raceNumber = parseInt(raceId);
+            return this.userPicksUpload.find({userId: userId, "race.race_id" :raceNumber}).exec();
+        }
+        catch(error){
+            log(error);
+            return -1;
+        }
+        
+    }
+
+
+
+}
+export default new PicksDao();

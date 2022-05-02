@@ -1,0 +1,37 @@
+{
+    "userId": "625e1df3f70c8de38d7cbb02",
+    
+    "userPoints": 0,
+    "race": {
+        "_id": {
+            "$oid": "625e19e8f70c8de38d7cbafe"
+        },
+        "name": "Bahrein",
+        "race_id": 1,
+        "results": [{"_id":{"$oid":"625d8bd1f70c8de38d7cbae0"},"firstName":"Max","lastName":"Verstappen","number":1,"team":"Red Bull Racing"},
+                    {"_id":{"$oid":"625d8bd1f70c8de38d7cbae0"},"firstName":"Max","lastName":"Verstappen","number":1,"team":"Red Bull Racing"},
+                    {"_id":{"$oid":"625d8bd1f70c8de38d7cbae0"},"firstName":"Max","lastName":"Verstappen","number":1,"team":"Red Bull Racing"},
+                    {"_id":{"$oid":"625d8bd1f70c8de38d7cbae0"},"firstName":"Max","lastName":"Verstappen","number":1,"team":"Red Bull Racing"},
+                    {"_id":{"$oid":"625d8bd1f70c8de38d7cbae0"},"firstName":"Max","lastName":"Verstappen","number":1,"team":"Red Bull Racing"}],
+        "fastest_lap": {"_id":{"$oid":"625e1830f70c8de38d7cbaed"},"firstName":"Charles","lastName":"Leclerc","number":16,"team":"Ferrari"},
+        "last_place": {"_id":{"$oid":"625e183ef70c8de38d7cbaee"},"firstName":"Carlos","lastName":"Sainz","number":55,"team":"Ferrari"},
+        "first_retirement": {"_id":{"$oid":"625e1868f70c8de38d7cbaf0"},"firstName":"George","lastName":"Russel","number":63,"team":"Mercedes"},
+        "schedule": {
+            "FP1": "",
+            "FP2": "",
+            "FP3": "",
+            "Qualy": "",
+            "Race": ""
+        },
+        "team_rosters": {},
+        "bonus": [{
+            "Q": "Lorem",
+            "A": "Ipsum",
+            "Q_id": 1
+        }, {
+            "Q": "Dolor",
+            "A": "Mucho",
+            "Q_id": 2
+        }]
+    }
+}

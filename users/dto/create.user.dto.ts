@@ -1,0 +1,11 @@
+import { driver } from "../../f1info/f1info.dto";
+
+export interface CreateUserDTO {
+    id: string,
+    email: string,
+    password: string,
+    firstName?: string,
+    lastName?: string,
+    permissionFlags?: number,
+    joker?: driver;
+}
