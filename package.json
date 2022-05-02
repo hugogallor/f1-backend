@@ -4,7 +4,7 @@
   "description": "node REST API quiniela",
   "main": "app.ts",
   "scripts": {
-    "start": "tsc && node --unhandled-rejections=strict ./dist/app.js",
+    "start": "node --unhandled-rejections=strict ./dist/app.js",
     "debug": "SET DEBUG=* && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.3.0",
     "shortid": "^2.2.16",
+    "typescript": "^4.6.3",
     "winston": "^3.7.2"
   },
   "devDependencies": {
