@@ -4,6 +4,7 @@
   "description": "node REST API quiniela",
   "scripts": {
     "start": "node ./dist/app.js",
+    "complile+start":"tsc && node ./dist/app.js",
     "debug": "SET DEBUG=* && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

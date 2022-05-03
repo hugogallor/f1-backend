@@ -75,6 +75,8 @@ routes.push(new PicksRoutes(app));
 //this is a simple route to make sure everything is working
 const runningMessage = `Server running at http://localhost:${port}`;
 
+app.route('/')
+    .get((req, res) => res.status(200).send("Hola :)"));
 
 server.listen(port, ()=> {
     routes.forEach((route: CommonRoutesConfig) => {
