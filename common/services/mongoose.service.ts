@@ -17,7 +17,9 @@ class MongooseService {
 
     constructor(){
         this.connectWithRetry();
-        if(mongooseDebug === "true") mongoose.set('debug', true);
+        if(mongooseDebug === "true"){ 
+            log("mongoose Service debug set true");
+            mongoose.set('debug', true);}
         
     }
 

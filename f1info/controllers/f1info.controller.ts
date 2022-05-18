@@ -52,11 +52,16 @@ class F1InfoController{
             res.status(200).send(currentRace);
         }
         else{
-            res.status(500);
+            res.status(404).send();
         }
     }
 
-   
+    async patchRaceResults(req: express.Request, res: express.Response){
+        //en los parametros del request viene el race id, se deben actualizar top 5, extra, bonus questions, y posiciones ganadas
+        const raceIdNumber: number = parseInt(req.params.raceId); 
+        const result = await f1infoDao.patchRaceTop5(raceIdNumber, req.body.userPicks);
+        const resultQ = await f1infoDao.patchRaceQuestions(raceIdNumber, req.body.userQuestions);
+    }
 }
 
 export default new F1InfoController();

@@ -50,8 +50,9 @@ export  class F1InfoSchema {
         bonus:[
             {
                 Q:{type:String},
-                A:[{type:String}],
+                A:{type:Array, default: undefined},  //default undefined en los arreglos hace que no quiera siempre meter un arreglo vacio
                 Q_id:{type:Number},
+                R:{type:String},
             }]
       });
 

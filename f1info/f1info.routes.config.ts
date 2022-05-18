@@ -22,11 +22,13 @@ export class F1InfoRoutes extends CommonRoutesConfig{
 
         //get specific race
         //param to indicate next race
-        
+        //agregar middleware de patch para checar que no haya "selecciona"?
         this.app.route('/races/:raceId')
-                .get(f1infoController.getRaceById);
+                .get(f1infoController.getRaceById)
+                .patch(f1infoController.patchRaceResults);
                 
-        
+      
+
         this.app.route('/current')
                 .get(f1infoController.generateCurrentRaceInfo)
 

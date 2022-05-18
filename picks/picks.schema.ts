@@ -11,6 +11,7 @@ export  class picksSchema {
     static userPicks =  new this.Schema<picksDto.userPicks>({
         userId:{type:String},
         userPoints:{type:Number},
+        jokerDriver:{ type: F1InfoSchema.driverSchema },
         race: {type: F1InfoSchema.raceSchema}
     });
     

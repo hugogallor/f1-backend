@@ -1,0 +1,9 @@
+JWT_SECRET=ugh!holachanc3
+#server variables  - chance falta tambien secreto para sesiones
+PORT=3000
+
+#dabase variables
+DB_ENDPOINT=mongodb+srv://AlonsoChamp:MagicAlonso@cluster0.hcorp.mongodb.net/f1?retryWrites=true&w=majority
+DB_PORT=27017
+#true for debug, anything else will not debug
+DB_DEBUG=true

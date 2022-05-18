@@ -20,9 +20,17 @@ export interface team{
 }
 
 export interface bonusQuestion{
-    Q: string,
-    A:[string],
-    Q_id: number
+    Q?: string,
+    A?:string,
+    Q_id: number,
+    R?: string;
+}
+
+export interface bonusQuestionResult{
+    R?: string,
+    Q_id: number,
+    Q?: string,
+    A?:string,
 }
 
 export interface race{
@@ -46,6 +54,24 @@ export interface race{
     bonus:[bonusQuestion],
     flagUrl: string,
 
+}
+
+export interface raceResults{
+    top5: [driver],
+    extraDNF: driver,
+    extraFastLap: driver,
+    extraPole: driver,
+    extraLast: driver,
+
+
+}
+
+export interface questionResults{
+    bonus:[bonusQuestionResult]
+}
+
+export interface bonusInterface{
+    bonus:Array<bonusQuestionResult>
 }
 
 export interface calendar{ races: [race]}
