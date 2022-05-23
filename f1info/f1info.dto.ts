@@ -5,6 +5,8 @@ export interface driver{
     lastName: string,
     number: number,
     team: team,
+    positionsGained?: number,
+    points?: number,
 
 }
 
@@ -12,8 +14,7 @@ export interface team{
     _id: string,
     name: string,
     colorHex: string,
-    driver1: driver,
-    driver2: driver,
+    drivers: [driver],
     PU: string,
     logoUrl: URL
 
@@ -24,6 +25,7 @@ export interface bonusQuestion{
     A?:string,
     Q_id: number,
     R?: string;
+    points?: number,
 }
 
 export interface bonusQuestionResult{
@@ -31,6 +33,7 @@ export interface bonusQuestionResult{
     Q_id: number,
     Q?: string,
     A?:string,
+    points?: number,
 }
 
 export interface race{
@@ -73,5 +76,7 @@ export interface questionResults{
 export interface bonusInterface{
     bonus:Array<bonusQuestionResult>
 }
+
+
 
 export interface calendar{ races: [race]}

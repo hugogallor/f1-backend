@@ -24,10 +24,12 @@ class F1infoDao{
     driverSchema =  F1InfoSchema.driverSchema;
     raceSchema =  F1InfoSchema.raceSchema;
     teamSchema =  F1InfoSchema.teamSchema;
+
    
     drivers = mongooseService.getMongoose().model('drivers', this.driverSchema);
     teams = mongooseService.getMongoose().model('teams',this.teamSchema);
     race = mongooseService.getMongoose().model('races',this.raceSchema);
+    
     
     
 
@@ -49,6 +51,7 @@ class F1infoDao{
 
         return this.race.find().exec();
     }
+
 
     async getRace(raceNumber: number){
         return this.race.findOne({ race_id: raceNumber}).exec();
@@ -81,19 +84,21 @@ class F1infoDao{
         let uploadQ: bonusInterface = {
             bonus: [...questions],
         }
-        //inicializamos variable "vacia"
-        /*
-        uploadQ = {bonus: [{Q_id: 0, R:""}]}
-
-        questions.forEach((question,i) => {
-            const answer: bonusQuestionResult = {Q_id: question.Q_id, R: question.A}
-            uploadQ.bonus[question.Q_id]= answer;
-            //const result = await this.race.findOneAndUpdate({race_id: raceNumber}, {$set: {uploadQ.bonus: }},{new:true});
-        }); 
-*/
-        //const result = await this.questionResult.findOneAndUpdate({race_id: raceNumber}, {$set: uploadQ},{new:true});
         const result = await this.race.findOneAndUpdate({race_id: raceNumber}, {$set: uploadQ},{new:true});
         log("updateQA", result);
+    }
+
+    async patchPositionsGained(raceNumber: number, teams: Array<team>){
+        let uploadTeams = {
+            team_rosters: [...teams],
+        }
+        const result = await this.race.findOneAndUpdate({race_id: raceNumber}, {$set: uploadTeams},{new:true});
+        if(result){
+            const changedRace: race = result;
+            return changedRace;
+        }
+        return -1;
+       
     }
 }
 export default new F1infoDao();

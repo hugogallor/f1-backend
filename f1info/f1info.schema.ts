@@ -13,6 +13,8 @@ export  class F1InfoSchema {
         lastName: {type:String},
         number: {type:Number},
         team: {type:String},
+        positionsGained: {type: Number},
+        points: {type: Number},
       });
 
       
@@ -21,8 +23,7 @@ export  class F1InfoSchema {
         _id:    {type:String} ,
         name:   {type:String},
         colorHex: {type:String},
-        driver1: this.driverSchema,
-        driver2: this.driverSchema,
+        drivers:[this.driverSchema],
         PU: {type:String},
         logoUrl: {type:String}
 
@@ -53,6 +54,7 @@ export  class F1InfoSchema {
                 A:{type:Array, default: undefined},  //default undefined en los arreglos hace que no quiera siempre meter un arreglo vacio
                 Q_id:{type:Number},
                 R:{type:String},
+                points:{type: Number},
             }]
       });
 

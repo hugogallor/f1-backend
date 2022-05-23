@@ -14,7 +14,7 @@ class UsersService implements CRUD{
     }
     
     async list(limit: number, page: number){
-        return usersDao.getUsers(limit, page);
+        return usersDao.getUsers();
     }
 
     async patchById(id: string, resource: PatchUserDTO){

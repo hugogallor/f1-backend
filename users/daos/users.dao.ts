@@ -48,11 +48,15 @@ class UsersDao{
         return this.User.findOne({_id: userId}).exec();  //tenía .populate('User') antes de exec. Pero crasheaba porque?
     }
 
-    async getUsers(limit = 25, page = 0){
+    /*async getUsers(limit = 25, page = 0){
         return this.User.find()
             .limit(limit)
             .skip(limit * page)
             .exec();
+    }*/
+
+    async getUsers(){
+        return this.User.find().exec();
     }
 
     async updateUserById(

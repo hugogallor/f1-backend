@@ -7,6 +7,7 @@ import f1infoDao from '../../f1info/f1info.dao';
 import { race } from '../f1info.dto';
 
 import F1InfoService from '../services/f1info.service';
+import f1infoService from '../services/f1info.service';
 
 const log: debug.IDebugger = debug('app:f1info-controller');
 class F1InfoController{
@@ -59,8 +60,15 @@ class F1InfoController{
     async patchRaceResults(req: express.Request, res: express.Response){
         //en los parametros del request viene el race id, se deben actualizar top 5, extra, bonus questions, y posiciones ganadas
         const raceIdNumber: number = parseInt(req.params.raceId); 
+        
         const result = await f1infoDao.patchRaceTop5(raceIdNumber, req.body.userPicks);
         const resultQ = await f1infoDao.patchRaceQuestions(raceIdNumber, req.body.userQuestions);
+        const resultPositions = await f1infoDao.patchPositionsGained(raceIdNumber, req.body.teams);
+        
+        //ahora calcular resultados resultPositions tiene la carrera más actualizada
+        if(resultPositions !== -1)  f1infoService.setUserResults(raceIdNumber, resultPositions);
+        
+
     }
 }
 

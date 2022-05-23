@@ -37,7 +37,9 @@ export class PicksDao{
     async getUserPicksByRace(userId: string, raceId:string){
         try{
             const raceNumber = parseInt(raceId);
-            return this.userPicksUpload.find({userId: userId, "race.race_id" :raceNumber}).exec();
+            //no se por que no puedo asignarle a query el tipo userPicks
+            const query = await this.userPicksUpload.findOne({userId: userId, "race.race_id" :raceNumber});
+            return query;
         }
         catch(error){
             log(error);
