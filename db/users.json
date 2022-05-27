@@ -1,0 +1,58 @@
+[{
+  "_id": {
+    "$oid": "625e1df3f70c8de38d7cbb02"
+  },
+  "email": "hugogallor@gmail.com",
+  "password": "$argon2i$v=19$m=16,t=2,p=1$RmVybmFuZG8$IRkVmiNPqxQJUhFfbe2OMg",
+  "points": 0,
+  "permissionFlags": 1,
+  "firstName": "Hugo",
+  "lastName": "Gallo",
+  "jokerDriver": {
+    "_id": {
+      "$oid": "625e187cf70c8de38d7cbaf1"
+    },
+    "firstName": "Alex",
+    "lastName": "Albon",
+    "number": 23,
+    "team": "Red Bull Racing"
+  }
+},{
+  "_id": {
+    "$oid": "6284713b43b9114b28e21265"
+  },
+  "email": "ri.estevez.a@gmail.com",
+  "password": "$argon2i$v=19$m=4096,t=3,p=1$eDfvi5hb2zsGmBIKO3wVkg$dywmmnqDiUEv4aIs7Vs9MnqnpjayXhmb1NdOgIvwijo",
+  "points": 0,
+  "permissionFlags": 1,
+  "firstName": "Ricardo",
+  "lastName": "Estevez",
+  "jokerDriver": {
+    "_id": {
+      "$oid": "625e187cf70c8de38d7cbaf1"
+    },
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  }
+},{
+  "_id": {
+    "$oid": "628471cb43b9114b28e21266"
+  },
+  "email": "saul.serrano902@gmail.com",
+  "password": "$argon2i$v=19$m=4096,t=3,p=1$X5gFdI1gp9L+ukVVzwUGUA$wAkeJg+l01BjGwTUPGIEERCSkO9vtWyUZFXLrEZbwkI",
+  "points": 0,
+  "permissionFlags": 1,
+  "firstName": "Saul",
+  "lastName": "Serrano",
+  "jokerDriver": {
+    "_id": {
+      "$oid": "625e187cf70c8de38d7cbaf1"
+    },
+    "firstName": "Sergio",
+    "lastName": "Perez",
+    "number": 11,
+    "team": "Red Bull"
+  }
+}]

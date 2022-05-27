@@ -1,11 +1,11 @@
 {
   "name": "node-typescript",
   "version": "1.0.1",
-  "description": "node REST API quiniela", 
+  "description": "node REST API quiniela",
   "scripts": {
     "start": "node ./dist/app.js",
-    "complile+start":"tsc && node ./dist/app.js",
-    "complile+debug":"tsc && npm run debug",
+    "complile+start": "tsc && node ./dist/app.js",
+    "complile+debug": "tsc && npm run debug",
     "debug": "SET DEBUG=* && npm run start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

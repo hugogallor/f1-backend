@@ -1,0 +1,7731 @@
+[{
+  "_id": {
+    "$oid": "625e19e8f70c8de38d7cbafe"
+  },
+  "name": "Bahrein",
+  "race_id": 1,
+  "results": [
+    {
+      "firstName": "Charles",
+      "lastName": "Leclerc",
+      "number": 7
+    },
+    {
+      "firstName": "Carlos",
+      "lastName": "Sainz",
+      "number": 55
+    },
+    {
+      "firstName": "Lewis",
+      "lastName": "Hamilton",
+      "number": 44
+    },
+    {
+      "firstName": "George",
+      "lastName": "Russel",
+      "number": 63
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Magnussen",
+      "number": 777
+    }
+  ],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-03-11T20:14:14.796Z"
+    },
+    "FP2": {
+      "$date": "2022-03-11T20:14:14.796Z"
+    },
+    "FP3": {
+      "$date": "2022-03-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-03-12T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-03-13T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "drivers": [
+        {
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44
+        },
+        {
+          "firstName": "George",
+          "lastName": "Russel",
+          "number": 63
+        }
+      ],
+      "logoUrl": "images/mercedes.jpg"
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Max",
+          "lastName": "Verstapen",
+          "number": 1
+        },
+        {
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11
+        }
+      ]
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4
+        },
+        {
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3
+        }
+      ]
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 7
+        },
+        {
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55
+        }
+      ]
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14
+        },
+        {
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31
+        }
+      ]
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 21
+        },
+        {
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 233
+        }
+      ]
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5
+        },
+        {
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 111
+        }
+      ]
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Valteri",
+          "lastName": "Bottas",
+          "number": 77
+        },
+        {
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 666
+        }
+      ]
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Nicolas",
+          "lastName": "Latifi",
+          "number": 222
+        },
+        {
+          "firstName": "Alex",
+          "lastName": "Albon",
+          "number": 23
+        }
+      ]
+    },
+    {
+      "drivers": [
+        {
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 555
+        },
+        {
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 777
+        }
+      ]
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Bonus 1: ¿Russell califica mejor que Hamilton?",
+      "A": [
+        "Sí",
+        "No"
+      ],
+      "Q_id": 1,
+      "_id": {
+        "$oid": "628e43b8666e039220ca721b"
+      }
+    },
+    {
+      "Q": "Bonus 3: ¿Haas sumará puntos en este GP?",
+      "A": [
+        "Sí",
+        "No"
+      ]
+    },
+    {}
+  ],
+  "flagUrl": "images/flags/bahrein.gif",
+  "fastestLap": {
+    "firstName": "Charles",
+    "lastName": "Leclerc",
+    "number": 7
+  },
+  "firstRetirement": {
+    "firstName": "Pierre",
+    "lastName": "Gasly",
+    "number": 21
+  },
+  "lastPlace": {
+    "firstName": "Nico",
+    "lastName": "Hulkenberg",
+    "number": 5
+  },
+  "pole": {
+    "firstName": "Charles",
+    "lastName": "Leclerc",
+    "number": 7
+  }
+},{
+  "_id": {
+    "$oid": "625e1c58f70c8de38d7cbaff"
+  },
+  "name": "Arabia Saudita",
+  "race_id": 2,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-03-18T20:14:14.796Z"
+    },
+    "FP2": {
+      "$date": "2022-03-18T20:14:14.796Z"
+    },
+    "FP3": {
+      "$date": "2022-03-18T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-03-18T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-03-18T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Lorem",
+      "A": "Ipsum",
+      "Q_id": 1
+    },
+    {
+      "Q": "Dolor",
+      "A": "Mucho",
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/saudi.gif"
+},{
+  "_id": {
+    "$oid": "626351b1bfbbec436bdd40dd"
+  },
+  "name": "Australia",
+  "race_id": 3,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-04-22T20:14:14.796Z"
+    },
+    "FP2": {
+      "$date": "2022-04-22T20:14:14.796Z"
+    },
+    "FP3": {
+      "$date": "2022-04-22T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-04-22T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-04-23T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Lorem",
+      "A": [
+        "Ipsum",
+        "tambien"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Dolor",
+      "A": [
+        "Mucho"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/australia.gif"
+},{
+  "_id": {
+    "$oid": "62637ea7bfbbec436bdd40de"
+  },
+  "name": "Imola",
+  "race_id": 4,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-05-22T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-05-23T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-05-22T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-05-22T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-05-13T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/italia.gif"
+},{
+  "_id": {
+    "$oid": "6285aaf6331f4420406709d3"
+  },
+  "name": "Miami",
+  "race_id": 5,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-06-22T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-06-23T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-06-22T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-06-22T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-06-13T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/us.gif"
+},{
+  "_id": {
+    "$oid": "628aed12874a15a0bd4b0dfd"
+  },
+  "name": "España",
+  "race_id": 6,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-06-24T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-06-24T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-06-24T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-06-24T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-06-24T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/espana.gif"
+},{
+  "_id": {
+    "$oid": "628aed43874a15a0bd4b0dfe"
+  },
+  "name": "Monaco",
+  "race_id": 7,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-06-25T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-06-25T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-06-25T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-06-25T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-06-25T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/monaco.gif"
+},{
+  "_id": {
+    "$oid": "628e451f3995e4a57d8b0a9d"
+  },
+  "name": "Azerbaiyán",
+  "race_id": 8,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/azerbaijan.gif"
+},{
+  "_id": {
+    "$oid": "628e46553995e4a57d8b0a9e"
+  },
+  "name": "Canadá",
+  "race_id": 9,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/canada.gif"
+},{
+  "_id": {
+    "$oid": "628e467b3995e4a57d8b0a9f"
+  },
+  "name": "Gran Bretaña",
+  "race_id": 10,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/uk.gif"
+},{
+  "_id": {
+    "$oid": "628e471f3995e4a57d8b0aa0"
+  },
+  "name": "Austria",
+  "race_id": 11,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/austria.gif"
+},{
+  "_id": {
+    "$oid": "628e47363995e4a57d8b0aa1"
+  },
+  "name": "Francia",
+  "race_id": 12,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/france.gif"
+},{
+  "_id": {
+    "$oid": "628e475d3995e4a57d8b0aa2"
+  },
+  "name": "Hungría",
+  "race_id": 13,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/hungria.gif"
+},{
+  "_id": {
+    "$oid": "628e47943995e4a57d8b0aa3"
+  },
+  "name": "Bélgica",
+  "race_id": 14,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/belgica.gif"
+},{
+  "_id": {
+    "$oid": "628e47b23995e4a57d8b0aa4"
+  },
+  "name": "Países Bajos",
+  "race_id": 15,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/holanda.gif"
+},{
+  "_id": {
+    "$oid": "628e47cc3995e4a57d8b0aa5"
+  },
+  "name": "Italia",
+  "race_id": 16,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/italia.gif"
+},{
+  "_id": {
+    "$oid": "628e47fa3995e4a57d8b0aa7"
+  },
+  "name": "Singapur",
+  "race_id": 18,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/singapur.gif"
+},{
+  "_id": {
+    "$oid": "628e48163995e4a57d8b0aa8"
+  },
+  "name": "Japón",
+  "race_id": 19,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/japon.gif"
+},{
+  "_id": {
+    "$oid": "628e48673995e4a57d8b0aa9"
+  },
+  "name": "Estados Unidos",
+  "race_id": 20,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/us.gif"
+},{
+  "_id": {
+    "$oid": "628e487e3995e4a57d8b0aaa"
+  },
+  "name": "México",
+  "race_id": 21,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/mexico.gif"
+},{
+  "_id": {
+    "$oid": "628e48c83995e4a57d8b0aad"
+  },
+  "name": "Sao Paulo",
+  "race_id": 22,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/brazil.gif"
+},{
+  "_id": {
+    "$oid": "628e48e13995e4a57d8b0aae"
+  },
+  "name": "Abu Dhabi",
+  "race_id": 23,
+  "results": [],
+  "fastest_lap": {},
+  "last_place": {},
+  "first_retirement": {},
+  "schedule": {
+    "FP1": {
+      "$date": "2022-07-10T04:00:00Z"
+    },
+    "FP2": {
+      "$date": "2022-07-10T05:23:55.796Z"
+    },
+    "FP3": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Qualy": {
+      "$date": "2022-07-11T20:14:14.796Z"
+    },
+    "Race": {
+      "$date": "2022-07-12T20:14:14.796Z"
+    }
+  },
+  "team_rosters": [
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Mercedes",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mercedes.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Lewis",
+          "lastName": "Hamilton",
+          "number": 44,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/hamilton.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "George",
+          "lastName": "Russell",
+          "number": 63,
+          "team": "Mercedes",
+          "photoUrl": "/images/drivers/russel.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Ferrari",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Charles",
+          "lastName": "Leclerc",
+          "number": 16,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/leclerc.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Carlos",
+          "lastName": "Sainz",
+          "number": 55,
+          "team": "Ferrari",
+          "photoUrl": "/images/drivers/sainz.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/ferrari.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Red Bull Racing",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Max",
+          "lastName": "Verstappen",
+          "number": 1,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/verstappen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Sergio",
+          "lastName": "Perez",
+          "number": 11,
+          "team": "Red Bull Racing",
+          "photoUrl": "/images/drivers/perez.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/red_bull.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "McLaren",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Daniel",
+          "lastName": "Ricciardo",
+          "number": 3,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/ricciardo.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lando",
+          "lastName": "Norris",
+          "number": 4,
+          "team": "McLaren",
+          "photoUrl": "/images/drivers/norris.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/mclaren.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e10d2f70c8de38d7cbae3"
+      },
+      "name": "Alfa Romeo",
+      "colorHex": "#6cd3bf",
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/alfa_romeo.png",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1856f70c8de38d7cbaef"
+          },
+          "firstName": "Valtteri",
+          "lastName": "Bottas",
+          "number": 77,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/bottas.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e1868f70c8de38d7cbaf0"
+          },
+          "firstName": "Guanyu",
+          "lastName": "Zhou",
+          "number": 24,
+          "team": "Alfa Romeo",
+          "photoUrl": "/images/drivers/zhou.png"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "625e16c0f70c8de38d7cbae4"
+      },
+      "name": "Alpine",
+      "colorHex": "#f91536",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1830f70c8de38d7cbaed"
+          },
+          "firstName": "Fernando",
+          "lastName": "Alonso",
+          "number": 14,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/alonso.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e183ef70c8de38d7cbaee"
+          },
+          "firstName": "Esteban",
+          "lastName": "Ocon",
+          "number": 31,
+          "team": "Alpine",
+          "photoUrl": "/images/drivers/ocon.png"
+        }
+      ],
+      "PowerUnit": "Renault",
+      "logoUrl": "/images/alpine.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1750f70c8de38d7cbae5"
+      },
+      "name": "Alpha Tauri",
+      "colorHex": "#3671c6",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625d8bd1f70c8de38d7cbae0"
+          },
+          "firstName": "Pierre",
+          "lastName": "Gasly",
+          "number": 10,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/gasly.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e187cf70c8de38d7cbaf1"
+          },
+          "firstName": "Yuki",
+          "lastName": "Tsunoda",
+          "number": 22,
+          "team": "Alpha Tauri",
+          "photoUrl": "/images/drivers/tsunoda.png"
+        }
+      ],
+      "PowerUnit": "Red Bull Powertrains",
+      "logoUrl": "/images/alpha_tauri.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Haas",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Kevin",
+          "lastName": "Magnussen",
+          "number": 20,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/magnussen.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Mick",
+          "lastName": "Schumacher",
+          "number": 47,
+          "team": "Haas",
+          "photoUrl": "/images/drivers/schumacher.png"
+        }
+      ],
+      "PowerUnit": "Ferrari",
+      "logoUrl": "/images/haas.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Aston Martin",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Sebastian",
+          "lastName": "Vettel",
+          "number": 5,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/vettel.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Lance",
+          "lastName": "Stroll",
+          "number": 18,
+          "team": "Aston Martin",
+          "photoUrl": "/images/drivers/stroll.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/aston_martin.png"
+    },
+    {
+      "_id": {
+        "$oid": "625e1773f70c8de38d7cbae6"
+      },
+      "name": "Williams",
+      "colorHex": "#f58020",
+      "drivers": [
+        {
+          "_id": {
+            "$oid": "625e1894f70c8de38d7cbaf2"
+          },
+          "firstName": "Alexander",
+          "lastName": "Albon",
+          "number": 23,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/albon.png"
+        },
+        {
+          "_id": {
+            "$oid": "625e18a1f70c8de38d7cbaf3"
+          },
+          "firstName": "Nicholas",
+          "lastName": "Latifi",
+          "number": 6,
+          "team": "Williams",
+          "photoUrl": "/images/drivers/latifi.png"
+        }
+      ],
+      "PowerUnit": "Mercedes",
+      "logoUrl": "/images/williams.png"
+    }
+  ],
+  "bonus": [
+    {
+      "Q": "Llueve?",
+      "A": [
+        "Si",
+        "No"
+      ],
+      "Q_id": 1
+    },
+    {
+      "Q": "Hay radio?",
+      "A": [
+        "Siempre"
+      ],
+      "Q_id": 2
+    }
+  ],
+  "flagUrl": "images/flags/abudhabi.gif"
+}]
