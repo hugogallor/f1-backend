@@ -8,6 +8,7 @@ import { race } from '../f1info.dto';
 
 import F1InfoService from '../services/f1info.service';
 import f1infoService from '../services/f1info.service';
+import * as f1scrape from '../services/F1scrape';
 
 const log: debug.IDebugger = debug('app:f1info-controller');
 class F1InfoController{
@@ -69,6 +70,11 @@ class F1InfoController{
         if(resultPositions !== -1)  f1infoService.setUserResults(raceIdNumber, resultPositions);
         
 
+    }
+
+    async getPositionsGained(req: express.Request, res: express.Response){
+     const positionsGained = await f1scrape.getPositionsGained(req.body.gridUrl, req.body.resultsUrl);
+     res.status(200).send(positionsGained);
     }
 }
 

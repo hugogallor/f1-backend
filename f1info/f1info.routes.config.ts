@@ -32,6 +32,9 @@ export class F1InfoRoutes extends CommonRoutesConfig{
         this.app.route('/current')
                 .get(f1infoController.generateCurrentRaceInfo)
 
+        this.app.route('/gained')
+                .post(f1infoController.getPositionsGained)
+
 
 
         //Patch race with results
