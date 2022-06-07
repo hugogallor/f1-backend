@@ -4,7 +4,8 @@ export interface userPicks {
     userId: string,
     race: race,
     userPoints: number,
-    jokerDriver: driver
+    jokerDriver: driver,
+    penalty: number,
     
     }
 

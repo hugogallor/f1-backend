@@ -65,7 +65,7 @@ class F1InfoController{
         const result = await f1infoDao.patchRaceTop5(raceIdNumber, req.body.userPicks);
         const resultQ = await f1infoDao.patchRaceQuestions(raceIdNumber, req.body.userQuestions);
         const resultPositions = await f1infoDao.patchPositionsGained(raceIdNumber, req.body.teams);
-        
+        //falta en algún lugar revisar si el usuario tiene penalización
         //ahora calcular resultados resultPositions tiene la carrera más actualizada
         if(resultPositions !== -1)  f1infoService.setUserResults(raceIdNumber, resultPositions);
         

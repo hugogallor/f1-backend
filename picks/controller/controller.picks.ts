@@ -1,11 +1,17 @@
 import express from 'express';
 import debug from 'debug';
 import PicksDao from '../picks.dao';
+import { cutOffPenalty } from '../picks.services';
 
 const log: debug.IDebugger = debug('app:picks-controller');
 class PicksController{
     async upload(req: express.Request, res: express.Response){
         //hace falta middleware para checar que req.body sea igual a picks.dto ?
+        //servicio para revisar si genera penalización por tiemop subido
+        const penalty = cutOffPenalty(req.body);
+        //enviadas ya empezada FP3 o qualy, no cuentan
+        if(penalty === -1) return 
+        req.body.penalty = penalty;
         const result = await PicksDao.uploadPicks(req.params.userId, req.body);
         res.status(200).send();
     }

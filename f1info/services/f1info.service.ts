@@ -92,7 +92,7 @@ const log: debug.IDebugger = debug('app: f1info service');
                     const resultsDriver = resultsTeam.drivers.find((driver)=> driver.number === joker.number);
                     if(resultsDriver){
                      //   console.log("your joker gained: ", resultsDriver.positionsGained);
-                        if(resultsDriver.positionsGained){
+                        if(resultsDriver.positionsGained !== undefined){
                              if(resultsDriver.positionsGained > 0){
                                  userPicks.jokerDriver.points = points.joker * resultsDriver.positionsGained;
                                  userPoints += points.joker * resultsDriver.positionsGained;
@@ -103,7 +103,9 @@ const log: debug.IDebugger = debug('app: f1info service');
                     }
 
                 }
-                 userPicks.userPoints = userPoints;
+                //log("user Penalty" , userPicks.penalty)
+                userPoints += userPicks.penalty;
+                userPicks.userPoints = userPoints;
                 const saveResult = await userPicks.save();
                 console.log("saveResult", saveResult)
             }
