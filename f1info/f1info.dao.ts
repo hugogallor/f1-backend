@@ -49,7 +49,7 @@ class F1infoDao{
     async getRaces(){
         
 
-        return this.race.find().sort({"race_id": "asc"}).exec();
+        return this.race.find().sort({race_id: "asc"}).exec();
     }
 
 
