@@ -29,9 +29,11 @@ export class PicksRoutes extends CommonRoutesConfig{
          /*   
          this.app.route('/picks/:userId/:raceId')
             .get(controllerPicks.getPicksByUserId)  */
-            
+        this.app.route('/standings')            
+            .get(controllerPicks.getStandings)
         
-           
+        this.app.route('/picksRaces/:userId/')
+            .get(controllerPicks.userRaces)  
         //results input
         /*
         this.app.route('/results/:raceId')

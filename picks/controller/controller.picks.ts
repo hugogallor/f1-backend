@@ -27,7 +27,16 @@ class PicksController{
         res.status(200).send(picks);
     }
 
-   
+   async getStandings(req: express.Request, res: express.Response){
+        const standings = await PicksDao.aggregateStandings();
+        res.status(200).send(standings);
+   }
+
+   async userRaces(req: express.Request, res: express.Response){
+        const userRaces = await PicksDao.racesBreakdown(req.params.userId);
+        res.status(200).send(userRaces);
+
+   }
 
 }
 
