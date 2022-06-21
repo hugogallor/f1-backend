@@ -151,3 +151,97 @@ export interface userPicks {
       ];
     return pipeline;
   }
+  
+
+  export function getRaceStandingsPipeline(raceId: string){
+    const raceIdInt: number = parseInt(raceId);
+    const pipeline:PipelineStage[] =  
+    [
+      {
+        '$addFields': {
+          'userIdObj': {
+            '$toObjectId': '$userId'
+          }
+        }
+      }, {
+        '$lookup': {
+          'from': 'users', 
+          'localField': 'userIdObj', 
+          'foreignField': '_id', 
+          'as': 'user'
+        }
+      }, {
+        '$match': {
+          'race.race_id': raceIdInt
+        }
+      }, {
+        '$set': {
+          'raceResults': {
+            '$reduce': {
+              'input': '$race.results', 
+              'initialValue': {
+                'sum': {
+                  '$add': [
+                    '$race.fastestLap.points', '$race.pole.points', '$race.lastPlace.points', '$race.firstRetirement.points', 0
+                  ]
+                }
+              }, 
+              'in': {
+                'sum': {
+                  '$add': [
+                    '$$value.sum', '$$this.points'
+                  ]
+                }
+              }
+            }
+          }, 
+          'bonus': {
+            '$reduce': {
+              'input': '$race.bonus', 
+              'initialValue': {
+                'sum': 0
+              }, 
+              'in': {
+                'sum': {
+                  '$add': [
+                    '$$value.sum', '$$this.points'
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }, {
+        '$project': {
+          'user': {
+            '$concat': [
+              {
+                '$arrayElemAt': [
+                  '$user.firstName', 0
+                ]
+              }, ' ', {
+                '$arrayElemAt': [
+                  '$user.lastName', 0
+                ]
+              }
+            ]
+          }, 
+          '_id': '$userId', 
+          'raceResults': '$raceResults.sum', 
+          'bonus': '$bonus.sum', 
+          'joker': '$jokerDriver.points', 
+          'penalty': '$penalty', 
+          'totalPoints': {
+            '$add': [
+              '$raceResults.sum', '$bonus.sum', '$jokerDriver.points', '$penalty'
+            ]
+          }
+        }
+      }, {
+        '$sort': {
+          'totalPoints': -1
+        }
+      }
+    ]
+  return pipeline;
+  }

@@ -32,6 +32,11 @@ class PicksController{
         res.status(200).send(standings);
    }
 
+   async getRaceStandings(req: express.Request, res: express.Response){
+    const standings = await PicksDao.raceStandings(req.params.raceId);
+    res.status(200).send(standings);
+}
+
    async userRaces(req: express.Request, res: express.Response){
         const userRaces = await PicksDao.racesBreakdown(req.params.userId);
         res.status(200).send(userRaces);
