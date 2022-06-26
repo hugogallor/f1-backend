@@ -14,7 +14,7 @@ class UsersDao{
     Schema = mongooseService.getMongoose().Schema;
     
     userSchema = new this.Schema({
-        _id: String,
+        _id: mongooseService.getMongoose().Types.ObjectId,
         email: String,
         password: {type: String, select: false},
         firstName: String,
@@ -45,7 +45,8 @@ class UsersDao{
     }
 
     async getUserById(userId: String){
-        return this.User.findOne({_id: userId}).exec();  //tenía .populate('User') antes de exec. Pero crasheaba porque?
+        
+        return this.User.findOne({_id:userId}).exec();  //tenía .populate('User') antes de exec. Pero crasheaba porque?
     }
 
     /*async getUsers(limit = 25, page = 0){
