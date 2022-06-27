@@ -2,6 +2,8 @@ import express from 'express';
 import usersService from '../services/users.service';
 import debug from 'debug';
 import * as argon2 from 'argon2';
+import usersDao from '../daos/users.dao';
+import {randomBytes} from 'node:crypto';
 
 const log: debug.IDebugger = debug('app:users-controller');
 class UsersMiddleware{
@@ -109,6 +111,20 @@ class UsersMiddleware{
         next: express.NextFunction
     ){
         req.body.password = await argon2.hash(req.body.password);
+        return next();
+    }
+
+    async setResetHash(
+        req: express.Request,
+        res: express.Response,
+        next: express.NextFunction
+    ){
+        const buffer = randomBytes(10)
+        const hash = await argon2.hash(buffer.toString('hex'),{raw:true, hashLength:16});
+        const result = await usersDao.setResetHash(req.body.email, hash.toString('hex') );
+        if(result === -1) res.status(400).send({ errors: ['Invalid email and/or password'] });
+        req.body.hash = hash.toString('hex');
+        req.body.userId = result._id.toString();
         return next();
     }
 }

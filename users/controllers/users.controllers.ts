@@ -8,6 +8,10 @@ import debug from 'debug';
 
 import f1infoDao from '../../f1info/f1info.dao';
 
+import nodemailer from 'nodemailer';
+
+
+
 const log: debug.IDebugger = debug('app:users-controller');
 class UsersController{
     async listUsers(req: express.Request, res: express.Response){
@@ -62,8 +66,35 @@ class UsersController{
 
     }
 
-  
+    async sendResetEmail(req: express.Request, res: express.Response){
+                // create reusable transporter object using the default SMTP transport
+        let transporter = nodemailer.createTransport({
+            host: "a2plcpnl0833.prod.iad2.secureserver.net",
+            port: 465,
+            secure: true, // true for 465, false for other ports
+            auth: {
+            user: "f1picante@cartribute.com", // generated ethereal user
+            pass: "bML)NQfSx1Jz", // generated ethereal password
+            },
+        });
 
+        // send mail with defined transport object
+        let info = await transporter.sendMail({
+            from: '"F1Picante" <f1picante@cartribute.com>', // sender address
+            to: req.body.email, // list of receivers
+            subject: "Reestablecer contraseña F1 Picante", // Subject line
+            text: `Hola, usa la siguiente liga para reestablecer tu contraseña www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}`, // plain text body
+            html: `<b>F1 Picante</b>
+                    <p>Hola, usa la siguiente liga para reestablecer tu contraseña</p><br>
+                    <a href="www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}">Reestablecer contraseña</a>`, // html body
+        });
+
+        console.log("Message sent: %s", info.messageId);
+        // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+
+        res.status(200).send();
+    }
 }
+  
 
 export default new UsersController();

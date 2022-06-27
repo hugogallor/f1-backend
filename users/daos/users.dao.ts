@@ -16,6 +16,7 @@ class UsersDao{
     userSchema = new this.Schema({
         _id: mongooseService.getMongoose().Types.ObjectId,
         email: String,
+        resetHash: {type:String, select: false},
         password: {type: String, select: false},
         firstName: String,
         lastName: String,
@@ -81,6 +82,16 @@ class UsersDao{
     async getUserByEmailWithPassword(email: string){
         return this.User.findOne({ email: email})
             .select('_id email firstName lastName permissionFlags jokerDriver password').exec();
+    }
+
+    async setResetHash(email: string, hash: string){
+        const userFields :PatchUserDTO = {resetHash: hash};
+        try{
+           return this.User.findOneAndUpdate({email:email},{$set:userFields});
+        }
+        catch(error){
+            return -1;
+        }
     }
 
    

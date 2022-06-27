@@ -5,6 +5,7 @@ import usersControllers from "./controllers/users.controllers";
 import usersMiddleware from "./middleware/users.middleware";
 import bodyValidationMiddleware from "../common/middleware/body.validation.middleware";
 import { body } from 'express-validator';
+import usersService from "./services/users.service";
 
 export class UsersRoutes extends CommonRoutesConfig{
     constructor(app: express.Application){
@@ -60,6 +61,15 @@ export class UsersRoutes extends CommonRoutesConfig{
         //usersMiddleware.hashBodyPassword,
         usersMiddleware.authenticateUser,
         usersControllers.login)
+
+        //usuario quiere resetear contraseña, 
+        //verificar que existe, crear hash, enviar mail, avisar a usuario
+        this.app.post('/user/reset', 
+        body('email').isEmail(),
+        usersMiddleware.setResetHash,
+        usersControllers.sendResetEmail
+
+        )
 
         return this.app;
     }
