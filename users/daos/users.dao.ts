@@ -93,7 +93,9 @@ class UsersDao{
             return -1;
         }
     }
-
+    async getResetHash(userId: string){
+        return this.User.findOne({ _id: userId}).select('resetHash');
+    }
    
 }
 

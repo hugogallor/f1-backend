@@ -49,6 +49,26 @@ class UsersMiddleware{
         }
     }
 
+    validatePatchHash = async(
+        req: express.Request,
+        res: express.Response,
+        next: express.NextFunction,
+    ) => {
+        if(req.body.hash){
+            const userHash = await usersDao.getResetHash(req.body.userId);
+            console.log("got user hash ", userHash);
+            if(userHash !== undefined){
+                if (userHash.resetHash === req.body.hash){
+                    next();
+                }
+                else{
+                    //res.status(401).send();
+                }
+            }
+            //res.status(401).send();
+        }
+    }
+
     async validateUserExists(
         req: express.Request,
         res: express.Response,

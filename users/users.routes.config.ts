@@ -47,13 +47,12 @@ export class UsersRoutes extends CommonRoutesConfig{
             body('email').isEmail(),
                 body('password').isLength({min: 5})
                     .withMessage('Must include password (5+ characters)'),
-            body('firstName').isString(),
-            body('lastName').isString(),
-            body('permissionFlags').isInt(),
-            bodyValidationMiddleware.verifyBodyFieldsErrors,
             usersMiddleware.validatePatchEmail,
+            usersMiddleware.validatePatchHash,
             usersControllers.patch,
         ]);
+
+    
 
         this.app.post('/login',
         body('email').isEmail(),
