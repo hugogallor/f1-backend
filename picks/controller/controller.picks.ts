@@ -1,7 +1,8 @@
 import express from 'express';
 import debug from 'debug';
 import PicksDao from '../picks.dao';
-import { cutOffPenalty } from '../picks.services';
+import { cutOffPenalty, emailPicks } from '../picks.services';
+import UsersService from '../../users/services/users.service';
 
 const log: debug.IDebugger = debug('app:picks-controller');
 class PicksController{
@@ -13,6 +14,8 @@ class PicksController{
         if(penalty === -1) return 
         req.body.penalty = penalty;
         const result = await PicksDao.uploadPicks(req.params.userId, req.body);
+        const user = await UsersService.readById(req.params.userId);
+        emailPicks(user.email, req.body)
         res.status(200).send();
     }
 
