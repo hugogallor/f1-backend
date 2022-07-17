@@ -1,0 +1,1045 @@
+[{
+  "_id": {
+    "$oid": "625e1df3f70c8de38d7cbb02"
+  },
+  "email": "hugogallor@gmail.com",
+  "points": 0,
+  "firstName": "Hugo",
+  "lastName": "Gallo",
+  "jokerDriver": {
+    "_id": {
+      "$oid": "625e187cf70c8de38d7cbaf1"
+    },
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "permissionFlags": 14,
+  "password": "$argon2i$v=19$m=4096,t=3,p=1$4xZ6iTusauYpHDZTkoUdyQ$H0HmhKbTX41RPzEkLFdM90UAtpS75ApnYJ/1IEbfx2k",
+  "resetHash": "a5955c371c17930a791d683699811b8b"
+},{
+  "_id": {
+    "$oid": "6284713b43b9114b28e21265"
+  },
+  "email": "ri.estevez.a@gmail.com",
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg",
+  "points": 0,
+  "permissionFlags": 14,
+  "firstName": "Ricardo",
+  "lastName": "Estévez",
+  "jokerDriver": {
+    "_id": {
+      "$oid": "625e187cf70c8de38d7cbaf1"
+    },
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  }
+},{
+  "_id": {
+    "$oid": "628471cb43b9114b28e21266"
+  },
+  "email": "saul.serrano902@gmail.com",
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg",
+  "points": 0,
+  "permissionFlags": 14,
+  "firstName": "Saul",
+  "lastName": "Serrano",
+  "jokerDriver": {
+    "_id": {
+      "$oid": "625e187cf70c8de38d7cbaf1"
+    },
+    "firstName": "Sergio",
+    "lastName": "Perez",
+    "number": 11,
+    "team": "Red Bull"
+  }
+},{
+  "_id": {
+    "$oid": "62903b7f96137fd0bf7cd10d"
+  },
+  "email": "gapm1959@gmail.com",
+  "firstName": "Adolfo",
+  "lastName": "Palacio",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Daniel",
+    "lastName": "Ricciardo",
+    "number": 3,
+    "team": "McLaren"
+  },
+  "championDriver": {
+    "_id": "625e1856f70c8de38d7cbaef",
+    "firstName": "Lewis",
+    "lastName": "Hamilton",
+    "number": 44,
+    "team": "Mercedes"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd111"
+  },
+  "email": "agusfs9@gmail.com",
+  "firstName": "Agustin",
+  "lastName": "Fernandez",
+  "jokerDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Pierre",
+    "lastName": "Gasly",
+    "number": 10,
+    "team": "Alpha Tauri"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd115"
+  },
+  "email": "avera@verayasociados.com.mx",
+  "firstName": "Alejandro",
+  "lastName": "Vera",
+  "jokerDriver": {
+    "_id": "625e1856f70c8de38d7cbaef",
+    "firstName": "Valtteri",
+    "lastName": "Bottas",
+    "number": 77,
+    "team": "Alfa Romeo"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd119"
+  },
+  "email": "alexdiazh@hotmail.com",
+  "firstName": "Alex",
+  "lastName": "Diaz",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd11d"
+  },
+  "email": "dr.andrebaldin@gmail.com",
+  "firstName": "André",
+  "lastName": "Baldin",
+  "jokerDriver": {
+    "_id": "625e187cf70c8de38d7cbaf1",
+    "firstName": "Sergio",
+    "lastName": "Perez",
+    "number": 11,
+    "team": "Red Bull Racing"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd121"
+  },
+  "email": "arturo.cabrera19@gmail.com",
+  "firstName": "Arturo",
+  "lastName": "Cabrera",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625e183ef70c8de38d7cbaee",
+    "firstName": "Carlos",
+    "lastName": "Sainz",
+    "number": 55,
+    "team": "Ferrari"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd125"
+  },
+  "email": "albemaco92@gmail.com",
+  "firstName": "Beto",
+  "lastName": "Mayorga",
+  "jokerDriver": {
+    "_id": "625e18a1f70c8de38d7cbaf3",
+    "firstName": "Mick",
+    "lastName": "Schumacher",
+    "number": 47,
+    "team": "Haas"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd129"
+  },
+  "email": "figueroamdphd@gmail.com",
+  "firstName": "Daniel",
+  "lastName": "Figueroa",
+  "jokerDriver": {
+    "_id": "625e1856f70c8de38d7cbaef",
+    "firstName": "Valtteri",
+    "lastName": "Bottas",
+    "number": 77,
+    "team": "Alfa Romeo"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd12d"
+  },
+  "email": "dan.gor.27@gmail.com",
+  "firstName": "Daniel",
+  "lastName": "Gorgonio",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd131"
+  },
+  "email": "hdavid80@gmail.com",
+  "firstName": "David",
+  "lastName": "Hernández",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625e1856f70c8de38d7cbaef",
+    "firstName": "Lewis",
+    "lastName": "Hamilton",
+    "number": 44,
+    "team": "Mercedes"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd135"
+  },
+  "email": "dmendoza.dmt@gmail.com",
+  "firstName": "David",
+  "lastName": "Mendoza",
+  "jokerDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Pierre",
+    "lastName": "Gasly",
+    "number": 10,
+    "team": "Alpha Tauri"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd139"
+  },
+  "email": "elios.palomo@gmail.com",
+  "firstName": "Elios",
+  "lastName": "Palomo",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Daniel",
+    "lastName": "Ricciardo",
+    "number": 3,
+    "team": "McLaren"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd13d"
+  },
+  "email": "erickhndz10@gmail.com",
+  "firstName": "Erick",
+  "lastName": "Hernández",
+  "jokerDriver": {
+    "_id": "625e18a1f70c8de38d7cbaf3",
+    "firstName": "Lando",
+    "lastName": "Norris",
+    "number": 4,
+    "team": "McLaren"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd141"
+  },
+  "email": "fgomezg92@gmail.com",
+  "firstName": "Fernando",
+  "lastName": "Gomez",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd145"
+  },
+  "email": "p_lopezvelarde@hotmail.com",
+  "firstName": "Fluf",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd149"
+  },
+  "email": "paco.campos.ds@gmail.com",
+  "firstName": "Francisco",
+  "lastName": "Campos",
+  "jokerDriver": {
+    "_id": "625e183ef70c8de38d7cbaee",
+    "firstName": "Carlos",
+    "lastName": "Sainz",
+    "number": 55,
+    "team": "Ferrari"
+  },
+  "championDriver": {
+    "_id": "625e1856f70c8de38d7cbaef",
+    "firstName": "Lewis",
+    "lastName": "Hamilton",
+    "number": 44,
+    "team": "Mercedes"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd14d"
+  },
+  "email": "pako_512@hotmail.com",
+  "firstName": "Francisco",
+  "lastName": "Delgado",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Daniel",
+    "lastName": "Ricciardo",
+    "number": 3,
+    "team": "McLaren"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd151"
+  },
+  "email": "gerardo.prudenciog@gmail.com",
+  "firstName": "Gerardo",
+  "lastName": "Prudencio",
+  "jokerDriver": {
+    "_id": "625e1868f70c8de38d7cbaf0",
+    "firstName": "George",
+    "lastName": "Russell",
+    "number": 63,
+    "team": "Mercedes"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903b8096137fd0bf7cd155"
+  },
+  "email": "gustavopalacio7@gmail.com",
+  "firstName": "Gustavo",
+  "lastName": "Palacio",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a29"
+  },
+  "email": "ismapradahawk@gmail.com",
+  "firstName": "Isma",
+  "lastName": "Prada",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a2d"
+  },
+  "email": "wmendez88@gmail.com",
+  "firstName": "Ivan",
+  "lastName": "Mendez",
+  "jokerDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Pierre",
+    "lastName": "Gasly",
+    "number": 10,
+    "team": "Alpha Tauri"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a31"
+  },
+  "email": "javiermvalle@gmail.com",
+  "firstName": "Javier",
+  "lastName": "Morales",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625e1856f70c8de38d7cbaef",
+    "firstName": "Lewis",
+    "lastName": "Hamilton",
+    "number": 44,
+    "team": "Mercedes"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a35"
+  },
+  "email": "javier_adrian22@hotmail.com",
+  "firstName": "Javier",
+  "lastName": "Pimentel",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a39"
+  },
+  "email": "jorge.garciaf93@hotmail.com",
+  "firstName": "Jorge",
+  "lastName": "García",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Daniel",
+    "lastName": "Ricciardo",
+    "number": 3,
+    "team": "McLaren"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a3d"
+  },
+  "email": "jjgc0622@gmail.com",
+  "firstName": "Jorge",
+  "lastName": "Gordillo",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a41"
+  },
+  "email": "jurgenmaza@gmail.com",
+  "firstName": "Jorge",
+  "lastName": "Martinez",
+  "jokerDriver": {
+    "_id": "625e183ef70c8de38d7cbaee",
+    "firstName": "Carlos",
+    "lastName": "Sainz",
+    "number": 55,
+    "team": "Ferrari"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a45"
+  },
+  "email": "jorge.rodmel@gmail.com",
+  "firstName": "Jorge",
+  "lastName": "Rodríguez",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625e187cf70c8de38d7cbaf1",
+    "firstName": "Sergio",
+    "lastName": "Perez",
+    "number": 11,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a49"
+  },
+  "email": "jrodriguezgonzalez91@gmail.com",
+  "firstName": "José",
+  "lastName": "Alejandro",
+  "jokerDriver": {
+    "_id": "625e183ef70c8de38d7cbaee",
+    "firstName": "Carlos",
+    "lastName": "Sainz",
+    "number": 55,
+    "team": "Ferrari"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a4d"
+  },
+  "email": "falconjose10@gmail.com",
+  "firstName": "José",
+  "lastName": "Fernando",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a51"
+  },
+  "email": "juanpas2k@gmail.com",
+  "firstName": "Juan",
+  "lastName": "Pablo",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a55"
+  },
+  "email": "jrfelix12@gmail.com",
+  "firstName": "Juan",
+  "lastName": "Ramón",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a59"
+  },
+  "email": "kresendizyanez@gmail.com",
+  "firstName": "Kaleb",
+  "lastName": "Resendiz",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a5d"
+  },
+  "email": "lmfdelima@gmail.com",
+  "firstName": "Luís",
+  "lastName": "Lima",
+  "jokerDriver": {
+    "_id": "625e183ef70c8de38d7cbaee",
+    "firstName": "Carlos",
+    "lastName": "Sainz",
+    "number": 55,
+    "team": "Ferrari"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a61"
+  },
+  "email": "mariana7.rnt@gmail.com",
+  "firstName": "Mariana",
+  "lastName": "Rentería",
+  "jokerDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Pierre",
+    "lastName": "Gasly",
+    "number": 10,
+    "team": "Alpha Tauri"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a65"
+  },
+  "email": "hdezocta@hotmail.com",
+  "firstName": "Octavio",
+  "lastName": "Hdez",
+  "jokerDriver": {
+    "_id": "625e183ef70c8de38d7cbaee",
+    "firstName": "Esteban",
+    "lastName": "Ocon",
+    "number": 31,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625e187cf70c8de38d7cbaf1",
+    "firstName": "Sergio",
+    "lastName": "Perez",
+    "number": 11,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a69"
+  },
+  "email": "patricio.fdzg@gmail.com",
+  "firstName": "Patricio",
+  "lastName": "Fernandez",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a6d"
+  },
+  "email": "rboyr95@gmail.com",
+  "firstName": "Rafael",
+  "lastName": "Boy",
+  "jokerDriver": {
+    "_id": "625e187cf70c8de38d7cbaf1",
+    "firstName": "Sergio",
+    "lastName": "Perez",
+    "number": 11,
+    "team": "Red Bull Racing"
+  },
+  "championDriver": {
+    "_id": "625e1856f70c8de38d7cbaef",
+    "firstName": "Lewis",
+    "lastName": "Hamilton",
+    "number": 44,
+    "team": "Mercedes"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a71"
+  },
+  "email": "rafael.delvallearana@gmail.com",
+  "firstName": "Rafael",
+  "lastName": "del",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a75"
+  },
+  "email": "rmc141194@gmail.com",
+  "firstName": "Ramón",
+  "lastName": "Martínez",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a79"
+  },
+  "email": "reymonay@gmail.com",
+  "firstName": "Reynaldo",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a85"
+  },
+  "email": "sofia.cgp@gmail.com",
+  "firstName": "Sofía",
+  "lastName": "Calva",
+  "jokerDriver": {
+    "_id": "625e1894f70c8de38d7cbaf2",
+    "firstName": "Sebastian",
+    "lastName": "Vettel",
+    "number": 5,
+    "team": "Aston Martin"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a89"
+  },
+  "email": "stephi_dec@hotmail.com",
+  "firstName": "Stephi",
+  "lastName": "Solorio",
+  "jokerDriver": {
+    "_id": "625e1830f70c8de38d7cbaed",
+    "firstName": "Fernando",
+    "lastName": "Alonso",
+    "number": 14,
+    "team": "Alpine"
+  },
+  "championDriver": {
+    "_id": "625d8bd1f70c8de38d7cbae0",
+    "firstName": "Max",
+    "lastName": "Verstappen",
+    "number": 1,
+    "team": "Red Bull Racing"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+},{
+  "_id": {
+    "$oid": "62903c4bb5c483ed2c194a8d"
+  },
+  "email": "yonataneleuterio@gmail.com",
+  "firstName": "Yony",
+  "jokerDriver": {
+    "_id": "625e183ef70c8de38d7cbaee",
+    "firstName": "Carlos",
+    "lastName": "Sainz",
+    "number": 55,
+    "team": "Ferrari"
+  },
+  "championDriver": {
+    "_id": "625e1856f70c8de38d7cbaef",
+    "firstName": "Lewis",
+    "lastName": "Hamilton",
+    "number": 44,
+    "team": "Mercedes"
+  },
+  "__v": 0,
+  "password": "$argon2i$v=19$m=16,t=2,p=1$bWFnaWNhbG9uc28$AoCfanYkiKKLLySdA89Hyg"
+}]

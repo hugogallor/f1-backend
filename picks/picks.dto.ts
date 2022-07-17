@@ -46,12 +46,20 @@ export interface userPicks {
         'user': {
           '$concat': [
             {
-              '$arrayElemAt': [
-                '$user.firstName', 0
+              '$ifNull': [
+                {
+                  '$arrayElemAt': [
+                    '$user.firstName', 0
+                  ]
+                }, ''
               ]
             }, ' ', {
-              '$arrayElemAt': [
-                '$user.lastName', 0
+              '$ifNull': [
+                {
+                  '$arrayElemAt': [
+                    '$user.lastName', 0
+                  ]
+                }, ''
               ]
             }
           ]
