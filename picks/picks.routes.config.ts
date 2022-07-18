@@ -37,6 +37,9 @@ export class PicksRoutes extends CommonRoutesConfig{
         
         this.app.route('/picksRaces/:userId/')
             .get(controllerPicks.userRaces)  
+
+        this.app.route('/picksCumulative')
+            .get(controllerPicks.cumulativeBreakdown)  
         //results input
         /*
         this.app.route('/results/:raceId')

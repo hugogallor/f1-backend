@@ -130,12 +130,20 @@ export interface userPicks {
             'user': {
               '$concat': [
                 {
-                  '$arrayElemAt': [
-                    '$user.firstName', 0
+                  '$ifNull': [
+                    {
+                      '$arrayElemAt': [
+                        '$user.firstName', 0
+                      ]
+                    }, ''
                   ]
                 }, ' ', {
-                  '$arrayElemAt': [
-                    '$user.lastName', 0
+                  '$ifNull': [
+                    {
+                      '$arrayElemAt': [
+                        '$user.lastName', 0
+                      ]
+                    }, ''
                   ]
                 }
               ]
@@ -224,12 +232,20 @@ export interface userPicks {
           'user': {
             '$concat': [
               {
-                '$arrayElemAt': [
-                  '$user.firstName', 0
+                '$ifNull': [
+                  {
+                    '$arrayElemAt': [
+                      '$user.firstName', 0
+                    ]
+                  }, ''
                 ]
               }, ' ', {
-                '$arrayElemAt': [
-                  '$user.lastName', 0
+                '$ifNull': [
+                  {
+                    '$arrayElemAt': [
+                      '$user.lastName', 0
+                    ]
+                  }, ''
                 ]
               }
             ]
@@ -252,4 +268,93 @@ export interface userPicks {
       }
     ]
   return pipeline;
+  }
+
+  export function getCumulativePointsPipeline(){
+    const pipeline:PipelineStage[] =  [
+        {
+          '$addFields': {
+            'userIdObj': {
+              '$toObjectId': '$userId'
+            }
+          }
+        }, {
+          '$lookup': {
+            'from': 'users', 
+            'localField': 'userIdObj', 
+            'foreignField': '_id', 
+            'as': 'user'
+          }
+        }, {
+          '$sort': {
+            'race.race_id': 1
+          }
+        }, {
+          '$setWindowFields': {
+            'partitionBy': '$userId', 
+            'sortBy': {
+              'race.race_id': 1
+            }, 
+            'output': {
+              'cumulative': {
+                '$sum': '$userPoints', 
+                'window': {
+                  'documents': [
+                    'unbounded', 'current'
+                  ]
+                }
+              }
+            }
+          }
+        }, {
+          '$project': {
+            'raceID': '$race.race_id', 
+            'race': '$race.name', 
+            'userPoints': 1, 
+            'cumulative': 1, 
+            'userId': '$userId', 
+            'user': {
+              '$concat': [
+                {
+                  '$ifNull': [
+                    {
+                      '$arrayElemAt': [
+                        '$user.firstName', 0
+                      ]
+                    }, ''
+                  ]
+                }, ' ', {
+                  '$ifNull': [
+                    {
+                      '$arrayElemAt': [
+                        '$user.lastName', 0
+                      ]
+                    }, ''
+                  ]
+                }
+              ]
+            }
+          }
+        }, {
+          '$group': {
+            '_id': '$raceID', 
+            'race': {
+              '$first': '$race'
+            }, 
+            'data': {
+              '$push': {
+                'user': '$user', 
+                'userId': '$userId', 
+                'userPoints': '$userPoints', 
+                'cumulative': '$cumulative'
+              }
+            }
+          }
+          }, {
+            '$sort': {
+            '_id': 1
+          }
+        }
+    ]
+    return pipeline;
   }

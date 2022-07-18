@@ -46,6 +46,11 @@ class PicksController{
 
    }
 
+   async cumulativeBreakdown(req: express.Request, res:express.Response){
+    const cumulative = await PicksDao.cumulativePoints();
+    res.status(200).send(cumulative);
+   }
+
 }
 
 export default new PicksController();

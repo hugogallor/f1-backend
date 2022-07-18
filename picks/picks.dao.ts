@@ -2,7 +2,7 @@ import mongooseService from "../common/services/mongoose.service";
 import debug from "debug";
 import { picksSchema } from "./picks.schema";
 import mongoose from "mongoose";
-import { userPicks, standingsAggregation, getBreakdownPipeline , getRaceStandingsPipeline} from "./picks.dto";
+import { userPicks, standingsAggregation, getBreakdownPipeline , getRaceStandingsPipeline, getCumulativePointsPipeline} from "./picks.dto";
 
 const log: debug.IDebugger = debug('app: picks dao');
 
@@ -67,6 +67,11 @@ export class PicksDao{
     async raceStandings(raceId: string){
         const standings = await this.userPicksUpload.aggregate(getRaceStandingsPipeline(raceId));
         return standings;
+    }
+
+    async cumulativePoints(){
+        const cumulative = await this.userPicksUpload.aggregate(getCumulativePointsPipeline());
+        return cumulative;
     }
 
 }
