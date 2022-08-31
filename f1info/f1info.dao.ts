@@ -60,12 +60,19 @@ class F1infoDao{
     async patchRaceTop5(raceNumber: number, raceResults: raceResults){
         //estamos usando el schema de race, pero sin todos los campos (en UI top5 = results)
         //parece que los arreglos de la interfaz se agregan siempre vacíos
-        type raceUpload = Omit<race, "team_rosters" | "bonus" | "_id" | "name" | "race_id" | "country" |"schedule" |"flagUrl" >
+        type raceUpload = Omit<race, "team_rosters" | "bonus" | "_id" | "name" | "race_id" | "country" |"schedule" |"flagUrl"|"firstRetirement" >;
+        let dnfResults:driver[];
+        console.log("patch race results " + raceResults.dnfResults);
+       
+        dnfResults = raceResults.dnfResults.filter((driver)=>{
+            if(driver.firstName != "Selecciona") return driver;
+        })
+        
         const race: raceUpload = {
             results: raceResults.top5,
             fastestLap: raceResults.extraFastLap,
             lastPlace: raceResults.extraLast,
-            firstRetirement: raceResults.extraDNF,
+            dnfResults: dnfResults,
             pole: raceResults.extraPole,
 
         }

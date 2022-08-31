@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "625e10d2f70c8de38d7cbae3"
+  },
+  "name": "Mercedes",
+  "colorHex": "#6cd3bf",
+  "PowerUnit": "Mercedes",
+  "logoUrl": "/images/merdes.png",
+  "drivers": [
+    {
+      "_id": {
+        "$oid": "625e1856f70c8de38d7cbaef"
+      },
+      "firstName": "Lewis",
+      "lastName": "Hamilton",
+      "number": 44,
+      "team": "Mercedes"
+    },
+    {
+      "_id": {
+        "$oid": "625e1868f70c8de38d7cbaf0"
+      },
+      "firstName": "George",
+      "lastName": "Russel",
+      "number": 63,
+      "team": "Mercedes"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "625e16c0f70c8de38d7cbae4"
+  },
+  "name": "Ferrari",
+  "colorHex": "#f91536",
+  "drivers": [
+    {
+      "_id": {
+        "$oid": "625e1830f70c8de38d7cbaed"
+      },
+      "firstName": "Charles",
+      "lastName": "Leclerc",
+      "number": 16,
+      "team": "Ferrari"
+    },
+    {
+      "_id": {
+        "$oid": "625e183ef70c8de38d7cbaee"
+      },
+      "firstName": "Carlos",
+      "lastName": "Sainz",
+      "number": 55,
+      "team": "Ferrari"
+    }
+  ],
+  "PowerUnit": "Ferrari",
+  "logoUrl": "/images/ferrari.png"
+},{
+  "_id": {
+    "$oid": "625e1773f70c8de38d7cbae6"
+  },
+  "name": "Mclaren",
+  "colorHex": "#f58020",
+  "drivers": [
+    {
+      "_id": {
+        "$oid": "625e1894f70c8de38d7cbaf2"
+      },
+      "firstName": "Daniel",
+      "lastName": "Ricciardo",
+      "number": 3,
+      "team": "Mclaren"
+    },
+    {
+      "_id": {
+        "$oid": "625e18a1f70c8de38d7cbaf3"
+      },
+      "firstName": "Lando",
+      "lastName": "Norris",
+      "number": 4,
+      "team": "Mclaren"
+    }
+  ],
+  "PowerUnit": "Mercedes",
+  "logoUrl": "/images/mclaren.png"
+},{
+  "_id": {
+    "$oid": "625e1750f70c8de38d7cbae5"
+  },
+  "name": "Red Bull Racing",
+  "colorHex": "#3671c6",
+  "drivers": [
+    {
+      "_id": {
+        "$oid": "625d8bd1f70c8de38d7cbae0"
+      },
+      "firstName": "Max",
+      "lastName": "Verstappen",
+      "number": 1,
+      "team": "Red Bull Racing"
+    },
+    {
+      "_id": {
+        "$oid": "625e187cf70c8de38d7cbaf1"
+      },
+      "firstName": "Sergio",
+      "lastName": "Perez",
+      "number": 11,
+      "team": "Red Bull Racing"
+    }
+  ],
+  "PowerUnit": "Red Bull Powertrains",
+  "logoUrl": "/images/red_bull.png"
+}]

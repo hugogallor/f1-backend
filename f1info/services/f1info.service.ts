@@ -61,7 +61,7 @@ const log: debug.IDebugger = debug('app: f1info service');
                 } else { userPicks.race.fastestLap.points = 0;}
 //hay gente que no metió piloto para firstRet
 
-                if(userPicks.race.firstRetirement.number === raceResults.firstRetirement.number){
+                if( raceResults.dnfResults?.some((dnfDriver) => dnfDriver.number === userPicks.race.firstRetirement.number)){
                     userPicks.race.firstRetirement.points = points.firstRetirement; 
                     userPoints += points.firstRetirement;
                 } else { userPicks.race.firstRetirement.points = 0;}

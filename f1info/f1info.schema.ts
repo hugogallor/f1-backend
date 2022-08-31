@@ -40,6 +40,7 @@ export  class F1InfoSchema {
         lastPlace: this.driverSchema,
         firstRetirement: this.driverSchema,
         pole: this.driverSchema,
+        dnfResults:[this.driverSchema],
         schedule: {
             FP1: {type:Date},
             FP2: {type:Date},
