@@ -86,7 +86,9 @@ class UsersController{
             text: `Hola, usa la siguiente liga para reestablecer tu contraseña www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}`, // plain text body
             html: `<b>F1 Picante</b>
                     <p>Hola, usa la siguiente liga para reestablecer tu contraseña</p><br>
-                    <a href="www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}">Reestablecer contraseña</a>`, // html body
+                    <a href="www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}">Reestablecer contraseña</a><br>
+                    Si la liga no funciona copia y pega este enlace en tu navegador:<br>
+                    www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}`, // html body
         });
 
         console.log("Message sent: %s", info.messageId);
