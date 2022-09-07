@@ -84,11 +84,19 @@ class UsersController{
             to: req.body.email, // list of receivers
             subject: "Reestablecer contraseña F1 Picante", // Subject line
             text: `Hola, usa la siguiente liga para reestablecer tu contraseña www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}`, // plain text body
-            html: `<b>F1 Picante</b>
+            html: `<!DOCTYPE html>
+                    <html>
+                    <head>
+                    <title>F1 Picante</title>
+                    </head>
+                    <body>
+                    <b>F1 Picante</b>
                     <p>Hola, usa la siguiente liga para reestablecer tu contraseña</p><br>
                     <a href="www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}">Reestablecer contraseña</a><br>
                     Si la liga no funciona copia y pega este enlace en tu navegador:<br>
-                    www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}`, // html body
+                    www.f1picante.cartribute.com/passwordreset/${req.body.hash}/${req.body.userId}
+                    </body>
+                    </html>`, // html body
         });
 
         console.log("Message sent: %s", info.messageId);
