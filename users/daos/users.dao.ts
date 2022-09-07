@@ -5,6 +5,8 @@ import mongooseService from "../../common/services/mongoose.service";
 import shortid from "shortid";
 import debug from "debug";
 import { F1InfoSchema } from '../../f1info/f1info.schema';
+import {user}  from '../../users/dto/create.user.dto';
+import { model, Model } from "mongoose";
 
 const log: debug.IDebugger = debug('app: in-memory-dao');
 
@@ -24,7 +26,7 @@ class UsersDao{
         jokerDriver: F1InfoSchema.driverSchema,
     }, {id: false});
 
-    User = mongooseService.getMongoose().model('User', this.userSchema);
+    User = model<user>('User', this.userSchema);
     constructor(){
         log('Created new instance of UsersDao');
     }
@@ -58,7 +60,8 @@ class UsersDao{
     }*/
 
     async getUsers(){
-        return this.User.find().exec();
+       
+        return this.User.find();
     }
 
     async updateUserById(

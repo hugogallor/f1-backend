@@ -15,6 +15,7 @@ class PicksController{
         req.body.penalty = penalty;
         const result = await PicksDao.uploadPicks(req.params.userId, req.body);
         const user = await UsersService.readById(req.params.userId);
+        if(user == null){ res.status(404).send; return }
         emailPicks(user.email, req.body)
         res.status(200).send();
     }

@@ -57,7 +57,7 @@ class UsersMiddleware{
         if(req.body.hash){
             const userHash = await usersDao.getResetHash(req.body.userId);
             console.log("got user hash ", userHash);
-            if(userHash !== undefined){
+            if(userHash !== undefined && userHash != null){
                 if (userHash.resetHash === req.body.hash){
                     next();
                 }
@@ -142,7 +142,10 @@ class UsersMiddleware{
         const buffer = randomBytes(10)
         const hash = await argon2.hash(buffer.toString('hex'),{raw:true, hashLength:16});
         const result = await usersDao.setResetHash(req.body.email, hash.toString('hex') );
-        if(result === -1) res.status(400).send({ errors: ['Invalid email and/or password'] });
+        if(result === -1 || result  == null ){
+            res.status(400).send({ errors: ['Invalid email and/or password'] });
+            return;
+        }        
         req.body.hash = hash.toString('hex');
         req.body.userId = result._id.toString();
         return next();
