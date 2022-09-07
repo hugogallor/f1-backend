@@ -104,8 +104,12 @@ function picksToHtml(picks: userPicks){
 function getHtmlHead(){
 
     return `
+    <!DOCTYPE html>
     <html>
     <head>
+    <html>
+    <head>
+    <title>F1 Picante</title>
     <style>
         .driver-spot{
             background-color: #62759c;
@@ -163,7 +167,7 @@ export async function emailPicks(email: string, picks: userPicks){
                 subject: "F1Picante confirmación de picks para " + picks.race.name, // Subject line
                 text: `Picks envaidos para ${picks.race.name}:  ${picks.race.results}`, // plain text body
                 html: `${getHtmlHead()}
-              <h2>F1 Picante</h2>
+                <h2>F1 Picante</h2>
                 <div style="display:block">
                 <img width="60" height="40" src="https://www.f1picante.cartribute.com/${picks.race.flagUrl}"/><br>
                         <p style="font-color:white">¡Picks recibidos!<br> 
