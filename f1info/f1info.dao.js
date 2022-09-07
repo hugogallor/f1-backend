@@ -103,15 +103,20 @@ var F1infoDao = /** @class */ (function () {
     };
     F1infoDao.prototype.patchRaceTop5 = function (raceNumber, raceResults) {
         return __awaiter(this, void 0, void 0, function () {
-            var race, result;
+            var dnfResults, race, result;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
+                        console.log("patch race results " + raceResults.dnfResults);
+                        dnfResults = raceResults.dnfResults.filter(function (driver) {
+                            if (driver.firstName != "Selecciona")
+                                return driver;
+                        });
                         race = {
                             results: raceResults.top5,
                             fastestLap: raceResults.extraFastLap,
                             lastPlace: raceResults.extraLast,
-                            firstRetirement: raceResults.extraDNF,
+                            dnfResults: dnfResults,
                             pole: raceResults.extraPole
                         };
                         return [4 /*yield*/, this.race.findOneAndUpdate({ race_id: raceNumber }, { $set: race }, { "new": true })];

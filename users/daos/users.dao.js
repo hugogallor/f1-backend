@@ -155,6 +155,13 @@ var UsersDao = /** @class */ (function () {
             });
         });
     };
+    UsersDao.prototype.getResetHash = function (userId) {
+        return __awaiter(this, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                return [2 /*return*/, this.User.findOne({ _id: userId }).select('resetHash')];
+            });
+        });
+    };
     return UsersDao;
 }());
 exports["default"] = new UsersDao();

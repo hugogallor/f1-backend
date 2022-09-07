@@ -39,6 +39,7 @@ var F1InfoSchema = /** @class */ (function () {
         lastPlace: _a.driverSchema,
         firstRetirement: _a.driverSchema,
         pole: _a.driverSchema,
+        dnfResults: [_a.driverSchema],
         schedule: {
             FP1: { type: Date },
             FP2: { type: Date },

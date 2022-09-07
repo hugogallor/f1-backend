@@ -168,16 +168,16 @@ var UsersController = /** @class */ (function () {
             });
         });
     };
-    UsersController.prototype.sendResetEmail = function (req) {
+    UsersController.prototype.sendResetEmail = function (req, res) {
         return __awaiter(this, void 0, void 0, function () {
             var transporter, info;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
                         transporter = nodemailer_1["default"].createTransport({
-                            host: "mail.cartribute.com ",
-                            port: 587,
-                            secure: false,
+                            host: "a2plcpnl0833.prod.iad2.secureserver.net",
+                            port: 465,
+                            secure: true,
                             auth: {
                                 user: "f1picante@cartribute.com",
                                 pass: "bML)NQfSx1Jz"
@@ -185,44 +185,16 @@ var UsersController = /** @class */ (function () {
                         });
                         return [4 /*yield*/, transporter.sendMail({
                                 from: '"F1Picante" <f1picante@cartribute.com>',
-                                to: "hugogallor@gmail.com",
-                                subject: "Hello ✔",
-                                text: "Hello world?",
-                                html: "<b>Hello world?</b>"
+                                to: req.body.email,
+                                subject: "Reestablecer contraseña F1 Picante",
+                                text: "Hola, usa la siguiente liga para reestablecer tu contrase\u00F1a www.f1picante.cartribute.com/passwordreset/".concat(req.body.hash, "/").concat(req.body.userId),
+                                html: "<!DOCTYPE html>\n                    <html>\n                    <head>\n                    <title>F1 Picante</title>\n                    </head>\n                    <body>\n                    <b>F1 Picante</b>\n                    <p>Hola, usa la siguiente liga para reestablecer tu contrase\u00F1a</p><br>\n                    <a href=\"www.f1picante.cartribute.com/passwordreset/".concat(req.body.hash, "/").concat(req.body.userId, "\">Reestablecer contrase\u00F1a</a><br>\n                    Si la liga no funciona copia y pega este enlace en tu navegador:<br>\n                    www.f1picante.cartribute.com/passwordreset/").concat(req.body.hash, "/").concat(req.body.userId, "\n                    </body>\n                    </html>")
                             })];
                     case 1:
                         info = _a.sent();
                         console.log("Message sent: %s", info.messageId);
-                        return [2 /*return*/];
-                }
-            });
-        });
-    };
-    UsersController.prototype.sendResetEmailTest = function () {
-        return __awaiter(this, void 0, void 0, function () {
-            var transporter, info;
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        transporter = nodemailer_1["default"].createTransport({
-                            host: "mail.cartribute.com ",
-                            port: 587,
-                            secure: false,
-                            auth: {
-                                user: "f1picante@cartribute.com",
-                                pass: "bML)NQfSx1Jz"
-                            }
-                        });
-                        return [4 /*yield*/, transporter.sendMail({
-                                from: '"F1Picante" <f1picante@cartribute.com>',
-                                to: "hugogallor@gmail.com",
-                                subject: "Hello ✔",
-                                text: "Hello world?",
-                                html: "<b>Hello world?</b>"
-                            })];
-                    case 1:
-                        info = _a.sent();
-                        console.log("Message sent: %s", info.messageId);
+                        // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
+                        res.status(200).send();
                         return [2 /*return*/];
                 }
             });
@@ -230,6 +202,4 @@ var UsersController = /** @class */ (function () {
     };
     return UsersController;
 }());
-var users = new UsersController();
-users.sendResetEmailTest();
 exports["default"] = new UsersController();
