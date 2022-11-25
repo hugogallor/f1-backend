@@ -13,61 +13,80 @@ export interface userPicks {
     
 
  export const standingsAggregation:PipelineStage[] =
-[
-    {
-      '$addFields': {
-        'userIdObj': {
-          '$toObjectId': '$userId'
-        }
+ [
+  {
+    '$addFields': {
+      'userIdObj': {
+        '$toObjectId': '$userId'
       }
-    }, {
-      '$lookup': {
-        'from': 'users', 
-        'localField': 'userIdObj', 
-        'foreignField': '_id', 
-        'as': 'user'
+    }
+  }, {
+    '$lookup': {
+      'from': 'users', 
+      'localField': 'userIdObj', 
+      'foreignField': '_id', 
+      'as': 'user'
+    }
+  }, {
+    '$group': {
+      '_id': '$userId', 
+      'totalPoints': {
+        '$sum': '$userPoints'
+      }, 
+      'user': {
+        '$first': '$user'
       }
-    }, {
-      '$group': {
-        '_id': '$userId', 
-        'totalPoints': {
-          '$sum': '$userPoints'
-        }, 
-        'user': {
-          '$first': '$user'
-        }
-      }
-    }, {
-      '$sort': {
-        'totalPoints': -1
-      }
-    }, {
-      '$project': {
-        'user': {
-          '$concat': [
-            {
-              '$ifNull': [
-                {
-                  '$arrayElemAt': [
-                    '$user.firstName', 0
-                  ]
-                }, ''
-              ]
-            }, ' ', {
-              '$ifNull': [
-                {
-                  '$arrayElemAt': [
-                    '$user.lastName', 0
-                  ]
-                }, ''
+    }
+  }, {
+    '$addFields': {
+      'totalPoints': {
+        '$add': {
+          '$add': [
+            '$totalPoints', {
+              '$arrayElemAt': [
+                '$user.championPoints', 0
               ]
             }
           ]
-        }, 
-        'totalPoints': '$totalPoints'
+        }
       }
     }
-  ];
+  }, {
+    '$sort': {
+      'totalPoints': -1
+    }
+  }, {
+    '$project': {
+      'user': {
+        '$concat': [
+          {
+            '$ifNull': [
+              {
+                '$arrayElemAt': [
+                  '$user.firstName', 0
+                ]
+              }, ''
+            ]
+          }, ' ', {
+            '$ifNull': [
+              {
+                '$arrayElemAt': [
+                  '$user.lastName', 0
+                ]
+              }, ''
+            ]
+          }
+        ]
+      }, 
+      'championPoints': {
+        '$arrayElemAt': [
+          '$user.championPoints', 0
+        ]
+      }, 
+      'totalPoints': '$totalPoints'
+    }
+  }
+];
 
   export function getBreakdownPipeline(userId: string){
     const pipeline:PipelineStage[] = [
