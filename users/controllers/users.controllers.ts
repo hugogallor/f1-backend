@@ -70,7 +70,7 @@ class UsersController{
     async setJokerChamp(req: express.Request, res:express.Response){
         const result = await usersDao.updateJoker(req.body.id, req.body.jokerDriver);
         const result2 = await usersDao.updateChampion(req.body.id, req.body.championDriver);
-        res.status(200);
+        res.status(200).send();
    }
 
    async getJoker(req: express.Request, res:express.Response){
