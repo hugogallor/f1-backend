@@ -4,7 +4,8 @@ import { PutUserDTO } from "../dto/put.user.dto";
 import mongooseService from "../../common/services/mongoose.service";
 import shortid from "shortid";
 import debug from "debug";
-import { F1InfoSchema } from '../../f1info/f1info.schema';
+import { F1InfoSchema} from '../../f1info/f1info.schema';
+import {driver} from '../../f1info/f1info.dto';
 import {user}  from '../../users/dto/create.user.dto';
 import { model, Model } from "mongoose";
 
@@ -24,6 +25,7 @@ class UsersDao{
         lastName: String,
         permissionFlags: Number,
         jokerDriver: F1InfoSchema.driverSchema,
+        championDriver: F1InfoSchema.driverSchema,
     }, {id: false});
 
     User = model<user>('User', this.userSchema);
@@ -98,6 +100,37 @@ class UsersDao{
     }
     async getResetHash(userId: string){
         return this.User.findOne({ _id: userId}).select('resetHash');
+    }
+
+    async updateJoker(userId: String, joker:driver){
+        
+        const updatedUser = await this.User.findOneAndUpdate(
+            {_id: userId},
+            {$set: {jokerDriver:joker}},
+            {new: true},
+           
+        ).exec();
+
+        return updatedUser;
+    }
+
+    async updateChampion(userId: String, champ:driver){
+        const updatedUser = await this.User.findOneAndUpdate(
+            {_id: userId},
+            {$set: {championDriver:champ}},
+            {new: true},
+           
+        ).exec();
+
+        return updatedUser;
+    }
+
+    async getJoker(userId:String){
+        return this.User.findOne({ _id: userId}).select('jokerDriver');
+    }
+
+    async getChampion(userId:String){
+        return this.User.findOne({ _id: userId}).select('championDriver');
     }
    
 }

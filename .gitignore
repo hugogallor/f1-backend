@@ -18,3 +18,4 @@ npm-debug.log*
 #user added
 data
 docker-compose.yaml
+*.csv

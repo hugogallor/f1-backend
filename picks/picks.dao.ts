@@ -74,5 +74,13 @@ export class PicksDao{
         return cumulative;
     }
 
+    async updateJoker(){
+
+    }
+
+    async updateChampion(){
+        
+    }
+
 }
 export default new PicksDao();

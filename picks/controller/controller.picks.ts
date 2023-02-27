@@ -3,6 +3,7 @@ import debug from 'debug';
 import PicksDao from '../picks.dao';
 import { cutOffPenalty, emailPicks } from '../picks.services';
 import UsersService from '../../users/services/users.service';
+import picksDao from '../picks.dao';
 
 const log: debug.IDebugger = debug('app:picks-controller');
 class PicksController{
@@ -51,6 +52,7 @@ class PicksController{
     const cumulative = await PicksDao.cumulativePoints();
     res.status(200).send(cumulative);
    }
+
 
 }
 

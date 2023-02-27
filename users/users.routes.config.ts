@@ -70,6 +70,16 @@ export class UsersRoutes extends CommonRoutesConfig{
 
         )
 
+        this.app.route('/jokerchamp')
+        .put(usersControllers.setJokerChamp)
+        //should check the userId, joker and champ are set correctly?
+        
+        this.app.route('/user/joker')
+        .get(usersControllers.getJoker)
+
+        this.app.route('/user/champ')
+        .get(usersControllers.getChamp)
+
         return this.app;
     }
     

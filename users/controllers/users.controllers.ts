@@ -9,6 +9,7 @@ import debug from 'debug';
 import f1infoDao from '../../f1info/f1info.dao';
 
 import nodemailer from 'nodemailer';
+import usersDao from '../daos/users.dao';
 
 
 
@@ -65,6 +66,32 @@ class UsersController{
         res.status(200).send(user);
 
     }
+
+    async setJokerChamp(req: express.Request, res:express.Response){
+        const result = await usersDao.updateJoker(req.body.id, req.body.jokerDriver);
+        const result2 = await usersDao.updateChampion(req.body.id, req.body.championDriver);
+        res.status(200);
+   }
+
+   async getJoker(req: express.Request, res:express.Response){
+        if(req.query.userId){
+            const result = await usersDao.getJoker(req.query.userId.toString());
+            res.status(200).send(result);
+        }
+        else{
+            res.status(400);
+        }
+   }
+
+   async getChamp(req: express.Request, res:express.Response){
+    if(req.query.userId){
+        const result = await usersDao.getChampion(req.query.userId.toString())
+        res.status(200).send(result);
+    }
+    else{
+        res.status(400);
+    }
+   }
 
     async sendResetEmail(req: express.Request, res: express.Response){
                 // create reusable transporter object using the default SMTP transport
