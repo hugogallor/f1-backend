@@ -40,6 +40,8 @@ export  class F1InfoSchema {
         lastPlace: this.driverSchema,
         firstRetirement: this.driverSchema,
         pole: this.driverSchema,
+        raceJoker: this.driverSchema,
+        topTeam: this.teamSchema,
         dnfResults:[this.driverSchema],
         schedule: {
             FP1: {type:Date},

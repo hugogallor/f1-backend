@@ -47,6 +47,8 @@ export interface race{
     lastPlace: driver,
     firstRetirement: driver,
     dnfResults:driver[],
+    raceJoker: driver,
+    topTeam: team,
     schedule: {
         FP1: Date,
         FP2: Date,
@@ -67,6 +69,8 @@ export interface raceResults{
     extraPole: driver,
     extraLast: driver,
     dnfResults:driver[],
+    raceJoker: driver,
+    topTeam: team
 
 
 }

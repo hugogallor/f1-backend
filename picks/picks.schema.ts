@@ -14,6 +14,7 @@ export  class picksSchema {
         penalty: {type: Number},
         jokerDriver:{ type: F1InfoSchema.driverSchema },
         race: {type: F1InfoSchema.raceSchema}
+        //TODO agregar topteam
     });
     
     

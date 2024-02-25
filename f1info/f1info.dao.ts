@@ -74,6 +74,8 @@ class F1infoDao{
             lastPlace: raceResults.extraLast,
             dnfResults: dnfResults,
             pole: raceResults.extraPole,
+            raceJoker: raceResults.raceJoker,
+            topTeam: raceResults.topTeam
 
         }
         //log("f1info.dao data",race);
