@@ -2,6 +2,7 @@ import { userPicks } from "./picks.dto";
 import F1InfoService from "../f1info/services/f1info.service";
 import nodemailer from 'nodemailer';
 
+//agregar función para verificar si solo cambió jokerCarrera? O que frontend lo comunique?
 export function cutOffPenalty(picksData: userPicks) {
     const dateNow = new Date();
     console.log("race to check", picksData.race)
