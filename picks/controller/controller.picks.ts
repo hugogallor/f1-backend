@@ -12,8 +12,7 @@ class PicksController{
         //servicio para revisar si genera penalización por tiemop subido
         const penalty = await cutOffPenalty(req.params.userId, req.body);
         //enviadas ya empezada FP3 o qualy, no cuentan
-        if(penalty === -1) return 
-        req.body.penalty = penalty;
+        if(penalty != -1)   req.body.penalty = penalty;
         const result = await PicksDao.uploadPicks(req.params.userId, req.body);
         const user = await UsersService.readById(req.params.userId);
         if(user == null){ res.status(404).send; return }
