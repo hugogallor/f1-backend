@@ -3,8 +3,10 @@
 import axios, { AxiosResponse } from "axios";
 
 const cheerio = require('cheerio');
-let gridUrl ="https://www.formula1.com/en/results.html/2022/races/1124/bahrain/starting-grid.html";
-let resultsUrl ="https://www.formula1.com/en/results.html/2022/races/1124/bahrain/race-result.html";
+//console.log("hey")
+let gridUrl ="https://www.formula1.com/en/results.html/2023/races/1141/bahrain/starting-grid.html";
+let resultsUrl ="https://www.formula1.com/en/results.html/2023/races/1141/bahrain/race-result.html";
+//addPositionsGained();
 
 export async function getPositionsGained(gridUrl:string, resultsUrl:string){
     const driverGrid:number[] = [];
@@ -48,4 +50,10 @@ export async function getPositionsGained(gridUrl:string, resultsUrl:string){
    
     
 }
+
+async function addPositionsGained(){
+  let res = await getPositionsGained(gridUrl, resultsUrl);
+  return res;
+}
+
 

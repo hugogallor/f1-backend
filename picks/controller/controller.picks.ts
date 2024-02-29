@@ -10,7 +10,7 @@ class PicksController{
     async upload(req: express.Request, res: express.Response){
         //hace falta middleware para checar que req.body sea igual a picks.dto ?
         //servicio para revisar si genera penalización por tiemop subido
-        const penalty = cutOffPenalty(req.body);
+        const penalty = await cutOffPenalty(req.params.userId, req.body);
         //enviadas ya empezada FP3 o qualy, no cuentan
         if(penalty === -1) return 
         req.body.penalty = penalty;

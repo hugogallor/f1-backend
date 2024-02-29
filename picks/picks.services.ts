@@ -1,9 +1,41 @@
 import { userPicks } from "./picks.dto";
 import F1InfoService from "../f1info/services/f1info.service";
 import nodemailer from 'nodemailer';
+import PicksDao from "./picks.dao";
 
+
+async function comparePicks(userId: string, picksData: userPicks){
+    //checar si picks entrantes son iguales a lo que ya estaba en DB, sin contar al raceJoker
+    //para ver si aplica penalty por ingreso tardío
+    //queda un poco coupled esta función?
+    const queryResult =  await PicksDao.getUserPicksByRace(userId, picksData.race.race_id.toString());
+    if(queryResult !== -1 && queryResult){
+        
+        const userPicks = queryResult;
+        
+        console.log("prev: ", userPicks );
+        console.log("curr: ", picksData );
+
+        const prevPenalty = userPicks.penalty;  //si ya tenían penalty tiene que seguir aplicando. Sin esto podrían meter picks tardíos dos veces y evitar penalty
+        if (prevPenalty < 0) return false;
+        //if(userPicks==null) return -1;
+        let match = true;
+        match &&=  userPicks.race.fastestLap.number == picksData.race.fastestLap.number;
+        match &&=  userPicks.race.pole.number == picksData.race.pole.number;
+        match &&=  userPicks.race.firstRetirement.number == picksData.race.firstRetirement.number;
+        match &&=  userPicks.race.lastPlace.number == picksData.race.lastPlace.number;
+        match &&=  userPicks.race.dnfResults[0].number == picksData.race.dnfResults[0].number;
+        match &&=  userPicks.race.topTeam.name == picksData.race.topTeam.name;
+        let reduceRes = 
+        match &&=  userPicks.race.results[0].number == picksData.race.results[0].number;
+        match &&=  JSON.stringify(userPicks.race.results) === JSON.stringify(picksData.race.results) ;
+        match &&=  JSON.stringify(userPicks.race.bonus) === JSON.stringify(picksData.race.bonus) ;
+        console.log("match ", match);
+        return match;
+    }
+}
 //agregar función para verificar si solo cambió jokerCarrera? O que frontend lo comunique? Otro intento I guess? Como hacemos redeploy?
-export function cutOffPenalty(picksData: userPicks) {
+export async function cutOffPenalty(userId:string, picksData: userPicks) {
     const dateNow = new Date();
     console.log("race to check", picksData.race)
     //convertir a fecha?
@@ -16,17 +48,24 @@ export function cutOffPenalty(picksData: userPicks) {
     console.log("Check penalty", dateNow);
     console.log("Check penalty", picksData.race.schedule.FP1);
     
+    //checamos si no hubo cambio de picks (sin contar raceJoker) porque no aplica penalty si solo cambiaron raceJoker
+    const samePicks = await comparePicks(userId, picksData);
+    
     //Next cutoff nos dice que estamos en la sesión de antes
     switch(nextCutOff){
         case "FP1":
-            return 0;
+          return 0;
         case "FP2":
-            return -30;
+           if(samePicks){ return 0; }
+           return -30;
         case "FP3":
+            if(samePicks){ return 0; }
             return -60;
         case "Qualy":
+            if(samePicks){ return 0; }
             return -1;
         case "Race":
+            if(samePicks){ return 0; }
             return -1;
 
     }
