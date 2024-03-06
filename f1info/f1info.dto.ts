@@ -1,10 +1,10 @@
 
 export interface driver{
-    _id: string,
+    _id?: string,
     firstName: string,
     lastName: string,
     number: number,
-    team: team,
+    team?: team,
     positionsGained?: number,
     points?: number,
 
@@ -16,7 +16,8 @@ export interface team{
     colorHex: string,
     drivers: [driver],
     PU: string,
-    logoUrl: URL
+    logoUrl: URL,
+    points?: number,
 
 }
 

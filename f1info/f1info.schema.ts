@@ -25,7 +25,8 @@ export  class F1InfoSchema {
         colorHex: {type:String},
         drivers:[this.driverSchema],
         PU: {type:String},
-        logoUrl: {type:String}
+        logoUrl: {type:String},
+        points:{type:Number},
 
     })
 

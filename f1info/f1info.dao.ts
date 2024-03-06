@@ -63,10 +63,16 @@ class F1infoDao{
         type raceUpload = Omit<race, "team_rosters" | "bonus" | "_id" | "name" | "race_id" | "country" |"schedule" |"flagUrl"|"firstRetirement" >;
         let dnfResults:driver[];
         console.log("patch race results " + raceResults.dnfResults);
-       
-        dnfResults = raceResults.dnfResults.filter((driver)=>{
-            if(driver.firstName != "Selecciona") return driver;
-        })
+        
+        if(raceResults.dnfResults[0].firstName == "Selecciona") {
+            dnfResults = [{firstName:"Selecciona", lastName:"Piloto", number:-300}];
+        }
+        else{
+            dnfResults = raceResults.dnfResults.filter((driver)=>{
+             if(driver.firstName != "Selecciona") return driver;
+            })
+        }
+        
         
         const race: raceUpload = {
             results: raceResults.top5,

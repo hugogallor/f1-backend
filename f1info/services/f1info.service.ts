@@ -37,7 +37,7 @@ const log: debug.IDebugger = debug('app: f1info service');
     {
         //get users
         const users: Array<user> = await UsersDao.getUsers();
-        console.log(users);
+       // console.log(users);
 
         for (const user of users) {
             const queryResult = await  picksDao.getUserPicksByRace(user._id, raceId.toString())
@@ -54,14 +54,22 @@ const log: debug.IDebugger = debug('app: f1info service');
                     }
                     else{ userDriver.points = 0}
                 });
+                //topTeam
+                if(userPicks.race.topTeam.name === raceResults.topTeam.name){
+                    userPicks.race.topTeam.points = points.topTeam;
+                    userPoints += points.topTeam;
+                }
+                else{ userPicks.race.topTeam.points = 0 }
                 //extra
                 if(userPicks.race.fastestLap.number === raceResults.fastestLap.number){
                     userPicks.race.fastestLap.points = points.fastestLap;
                     userPoints += points.fastestLap;
                 } else { userPicks.race.fastestLap.points = 0;}
 //hay gente que no metió piloto para firstRet
-
-                if( raceResults.dnfResults?.some((dnfDriver) => dnfDriver.number === userPicks.race.firstRetirement.number)){
+//para calculo de primera carrera, usar apellido del piloto. Cambiar después por si hay pilotos con mismo apellido?
+                if( raceResults.dnfResults?.some((dnfDriver) => dnfDriver.lastName === userPicks.race.firstRetirement.lastName)){
+                    console.log("dnf Result:" + raceResults.dnfResults);
+                    console.log("dnf user:" + userPicks.race.firstRetirement);
                     userPicks.race.firstRetirement.points = points.firstRetirement; 
                     userPoints += points.firstRetirement;
                 } else { userPicks.race.firstRetirement.points = 0;}

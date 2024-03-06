@@ -24,9 +24,8 @@ async function comparePicks(userId: string, picksData: userPicks){
         match &&=  userPicks.race.pole.number == picksData.race.pole.number;
         match &&=  userPicks.race.firstRetirement.number == picksData.race.firstRetirement.number;
         match &&=  userPicks.race.lastPlace.number == picksData.race.lastPlace.number;
-        match &&=  userPicks.race.dnfResults[0].number == picksData.race.dnfResults[0].number;
         match &&=  userPicks.race.topTeam.name == picksData.race.topTeam.name;
-        let reduceRes = 
+
         match &&=  userPicks.race.results[0].number == picksData.race.results[0].number;
         match &&=  JSON.stringify(userPicks.race.results) === JSON.stringify(picksData.race.results) ;
         match &&=  JSON.stringify(userPicks.race.bonus) === JSON.stringify(picksData.race.bonus) ;
