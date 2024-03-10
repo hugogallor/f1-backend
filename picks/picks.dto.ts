@@ -115,7 +115,7 @@ export interface userPicks {
                 'initialValue': {
                   'sum': {
                     '$add': [
-                      '$race.fastestLap.points', '$race.pole.points', '$race.lastPlace.points', '$race.firstRetirement.points', 0
+                      '$race.fastestLap.points', '$race.pole.points', '$race.lastPlace.points', '$race.firstRetirement.points', '$race.topTeam.points', 0
                     ]
                   }
                 }, 
@@ -171,10 +171,11 @@ export interface userPicks {
             'raceResults': '$raceResults.sum', 
             'bonus': '$bonus.sum', 
             'joker': '$jokerDriver.points', 
+            'raceJoker': "$race.raceJoker.points",
             'penalty': '$penalty', 
             'total': {
               '$add': [
-                '$raceResults.sum', '$bonus.sum', '$jokerDriver.points', '$penalty'
+                '$raceResults.sum', '$bonus.sum', '$jokerDriver.points', '$race.raceJoker.points', '$penalty'
               ]
             }
           }
@@ -217,7 +218,7 @@ export interface userPicks {
               'initialValue': {
                 'sum': {
                   '$add': [
-                    '$race.fastestLap.points', '$race.pole.points', '$race.lastPlace.points', '$race.firstRetirement.points', 0
+                    '$race.fastestLap.points', '$race.pole.points', '$race.lastPlace.points', '$race.firstRetirement.points','$race.topTeam.points', 0
                   ]
                 }
               }, 
@@ -273,10 +274,11 @@ export interface userPicks {
           'raceResults': '$raceResults.sum', 
           'bonus': '$bonus.sum', 
           'joker': '$jokerDriver.points', 
+          'raceJoker': '$race.raceJoker.points',
           'penalty': '$penalty', 
           'totalPoints': {
             '$add': [
-              '$raceResults.sum', '$bonus.sum', '$jokerDriver.points', '$penalty'
+              '$raceResults.sum', '$bonus.sum', '$jokerDriver.points', '$race.raceJoker.points', '$penalty'
             ]
           }
         }
