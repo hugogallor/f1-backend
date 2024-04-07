@@ -130,6 +130,13 @@ const log: debug.IDebugger = debug('app: f1info service');
                     }
 
                 }
+                else {
+                    //Si dejaron As en blanco. Asignar 0 puntos
+                    userPicks.race.raceJoker.points = 0;
+                }
+                
+
+
                 //log("user Penalty" , userPicks.penalty)
                 userPoints += userPicks.penalty;
                 userPicks.userPoints = userPoints;

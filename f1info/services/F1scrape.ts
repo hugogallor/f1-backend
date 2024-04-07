@@ -25,7 +25,7 @@ export async function getPositionsGained(gridUrl:string, resultsUrl:string){
 
     })
         
-    console.log(driverGrid);
+   // console.log(driverGrid);
   
 
     const  responseR: AxiosResponse  =   await axios.get(resultsUrl);
@@ -38,7 +38,7 @@ export async function getPositionsGained(gridUrl:string, resultsUrl:string){
 
     })
   
-    console.log(driverResult);
+   // console.log(driverResult);
 
     gained = driverGrid.map((grid, i) => i - driverResult.indexOf(grid));
     console.log(gained);
