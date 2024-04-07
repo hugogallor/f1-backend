@@ -114,26 +114,32 @@ const log: debug.IDebugger = debug('app: f1info service');
 
                 //raceJoker
                 const raceJoker = userPicks.race.raceJoker;
-                const resultsTeamRJ = raceResults.team_rosters.find((team) => team.drivers.some((driver) => driver.number === raceJoker.number));
-                if(resultsTeamRJ) {
-                   // console.log("your joker's team is: ", resultsTeam);
-                    const resultsDriver = resultsTeamRJ.drivers.find((driver)=> driver.number === raceJoker.number);
-                    if(resultsDriver){
-                     //   console.log("your joker gained: ", resultsDriver.positionsGained);
-                        if(resultsDriver.positionsGained !== undefined){
-                            //no nos importa si son negativos o no                            
-                            userPicks.race.raceJoker.points = points.joker * resultsDriver.positionsGained;
-                            userPoints += points.joker * resultsDriver.positionsGained;                            
-                             
-                        }  else { userPicks.race.raceJoker.points = 0}
-
-                    }
-
-                }
-                else {
-                    //Si dejaron As en blanco. Asignar 0 puntos
+                if(raceJoker.firstName == "Selecciona"){
                     userPicks.race.raceJoker.points = 0;
                 }
+                else{
+                    const resultsTeamRJ = raceResults.team_rosters.find((team) => team.drivers.some((driver) => driver.number === raceJoker.number));
+                    if(resultsTeamRJ) {
+                    // console.log("your joker's team is: ", resultsTeam);
+                        const resultsDriver = resultsTeamRJ.drivers.find((driver)=> driver.number === raceJoker.number);
+                        if(resultsDriver){
+                        //   console.log("your joker gained: ", resultsDriver.positionsGained);
+                            if(resultsDriver.positionsGained !== undefined){
+                                //no nos importa si son negativos o no                            
+                                userPicks.race.raceJoker.points = points.joker * resultsDriver.positionsGained;
+                                userPoints += points.joker * resultsDriver.positionsGained;                            
+                                
+                            }  else { userPicks.race.raceJoker.points = 0}
+
+                        }
+
+                    }
+                    else {
+                        //Si dejaron As en blanco. Asignar 0 puntos
+                        userPicks.race.raceJoker.points = 0;
+                    }
+                }
+               
                 
 
 
