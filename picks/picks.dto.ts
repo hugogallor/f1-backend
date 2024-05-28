@@ -173,15 +173,15 @@ export interface userPicks {
             'joker': '$jokerDriver.points', 
             'raceJoker':{
               '$ifNull': [
-                "$race.raceJoker.points",
-                ""
+                '$race.raceJoker.points',
+                0
               ]
             } ,
             'penalty': '$penalty', 
             'total': {
               '$add': [
                 '$raceResults.sum', '$bonus.sum', '$jokerDriver.points', {'$ifNull': [
-                  "$race.raceJoker.points",
+                  '$race.raceJoker.points',
                   0
                 ]
               }, '$penalty'
@@ -288,7 +288,7 @@ export interface userPicks {
           'totalPoints': {
             '$add': [
               '$raceResults.sum', '$bonus.sum', '$jokerDriver.points', {'$ifNull': [
-                "$race.raceJoker.points",
+                '$race.raceJoker.points',
                 0
               ]
             }, '$penalty'
