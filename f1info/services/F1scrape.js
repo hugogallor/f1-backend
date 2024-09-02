@@ -41,8 +41,8 @@ exports.getPositionsGained = void 0;
 var axios_1 = require("axios");
 var cheerio = require('cheerio');
 console.log("hey");
-var gridUrl = "https://www.formula1.com/en/results.html/2023/races/1141/bahrain/starting-grid.html";
-var resultsUrl = "https://www.formula1.com/en/results.html/2023/races/1141/bahrain/race-result.html";
+var gridUrl = "https://www.formula1.com/en/results/2024/races/1244/italy/starting-grid";
+var resultsUrl = "https://www.formula1.com/en/results/2024/races/1244/italy/race-result";
 addPositionsGained();
 function getPositionsGained(gridUrl, resultsUrl) {
     return __awaiter(this, void 0, void 0, function () {
