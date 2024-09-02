@@ -3,10 +3,10 @@
 import axios, { AxiosResponse } from "axios";
 
 const cheerio = require('cheerio');
-//console.log("hey")
+console.log("hey")
 let gridUrl ="https://www.formula1.com/en/results.html/2023/races/1141/bahrain/starting-grid.html";
 let resultsUrl ="https://www.formula1.com/en/results.html/2023/races/1141/bahrain/race-result.html";
-//addPositionsGained();
+addPositionsGained();
 
 export async function getPositionsGained(gridUrl:string, resultsUrl:string){
     const driverGrid:number[] = [];
@@ -14,33 +14,36 @@ export async function getPositionsGained(gridUrl:string, resultsUrl:string){
     let gained:number[]  =[];
    try{ 
     const response: AxiosResponse = await axios.get(gridUrl);
-   // console.log("response", response);
+    //console.log("response", response);
     let $ = cheerio.load(response.data);
     //console.log(data);
   
-    const driver = $('.resultsarchive-table tr td:nth-child(3)');
+    //const driver = $('.resultsarchive-table tr td:nth-child(3)');
+    const driver = $('.f1-table tr td:nth-child(2)');
+    //console.log(driver)
     driver.each((i: number, element: Element) =>{
       console.log(i, $(element).text());
       driverGrid.push(parseInt($(element).text()));
 
     })
         
-   // console.log(driverGrid);
+    console.log(driverGrid);
   
 
     const  responseR: AxiosResponse  =   await axios.get(resultsUrl);
          
     $ = cheerio.load(responseR.data);
-    const driverR = $('.resultsarchive-table tr td:nth-child(3)');
+    const driverR = $('.f1-table tr td:nth-child(2)');
     driverR.each((i:number, element: Element) =>{
       console.log(i, $(element).text());
       driverResult.push(parseInt($(element).text()));
 
     })
   
-   // console.log(driverResult);
+   console.log(driverResult);
 
     gained = driverGrid.map((grid, i) => i - driverResult.indexOf(grid));
+    console.log("gained");
     console.log(gained);
 
        

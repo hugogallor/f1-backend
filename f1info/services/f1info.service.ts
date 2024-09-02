@@ -116,6 +116,7 @@ const log: debug.IDebugger = debug('app: f1info service');
                 const raceJoker = userPicks.race.raceJoker;
                 if(raceJoker.firstName == "Selecciona"){
                     userPicks.race.raceJoker.points = 0;
+                    console.log("raceJoker Selecciona ", resultsTeam);
                 }
                 else{
                     const resultsTeamRJ = raceResults.team_rosters.find((team) => team.drivers.some((driver) => driver.number === raceJoker.number));
