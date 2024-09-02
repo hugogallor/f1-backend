@@ -40,10 +40,10 @@ exports.__esModule = true;
 exports.getPositionsGained = void 0;
 var axios_1 = require("axios");
 var cheerio = require('cheerio');
-console.log("hey");
+//console.log("hey")
 var gridUrl = "https://www.formula1.com/en/results/2024/races/1244/italy/starting-grid";
 var resultsUrl = "https://www.formula1.com/en/results/2024/races/1244/italy/race-result";
-addPositionsGained();
+//addPositionsGained();
 function getPositionsGained(gridUrl, resultsUrl) {
     return __awaiter(this, void 0, void 0, function () {
         var driverGrid, driverResult, gained, response, $_1, driver, responseR, driverR, error_1;
@@ -63,23 +63,22 @@ function getPositionsGained(gridUrl, resultsUrl) {
                     driver = $_1('.f1-table tr td:nth-child(2)');
                     //console.log(driver)
                     driver.each(function (i, element) {
-                        console.log(i, $_1(element).text());
+                        //console.log(i, $(element).text());
                         driverGrid.push(parseInt($_1(element).text()));
                     });
-                    console.log(driverGrid);
                     return [4 /*yield*/, axios_1["default"].get(resultsUrl)];
                 case 3:
                     responseR = _a.sent();
                     $_1 = cheerio.load(responseR.data);
                     driverR = $_1('.f1-table tr td:nth-child(2)');
                     driverR.each(function (i, element) {
-                        console.log(i, $_1(element).text());
+                        //console.log(i, $(element).text());
                         driverResult.push(parseInt($_1(element).text()));
                     });
-                    console.log(driverResult);
+                    //console.log(driverResult);
                     gained = driverGrid.map(function (grid, i) { return i - driverResult.indexOf(grid); });
-                    console.log("gained");
-                    console.log(gained);
+                    //console.log("gained");
+                    //console.log(gained);
                     return [2 /*return*/, ({ drivers: driverGrid, gained: gained })];
                 case 4:
                     error_1 = _a.sent();

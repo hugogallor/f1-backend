@@ -22,12 +22,12 @@ export async function getPositionsGained(gridUrl:string, resultsUrl:string){
     const driver = $('.f1-table tr td:nth-child(2)');
     //console.log(driver)
     driver.each((i: number, element: Element) =>{
-      console.log(i, $(element).text());
+      //console.log(i, $(element).text());
       driverGrid.push(parseInt($(element).text()));
 
     })
         
-    console.log(driverGrid);
+   // console.log(driverGrid);
   
 
     const  responseR: AxiosResponse  =   await axios.get(resultsUrl);
@@ -35,16 +35,16 @@ export async function getPositionsGained(gridUrl:string, resultsUrl:string){
     $ = cheerio.load(responseR.data);
     const driverR = $('.f1-table tr td:nth-child(2)');
     driverR.each((i:number, element: Element) =>{
-      console.log(i, $(element).text());
+      //console.log(i, $(element).text());
       driverResult.push(parseInt($(element).text()));
 
     })
   
-   console.log(driverResult);
+   //console.log(driverResult);
 
     gained = driverGrid.map((grid, i) => i - driverResult.indexOf(grid));
     //console.log("gained");
-    console.log(gained);
+    //console.log(gained);
 
        
     return ({drivers:driverGrid, gained:gained});
