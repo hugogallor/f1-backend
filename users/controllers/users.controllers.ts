@@ -96,7 +96,7 @@ class UsersController{
     async sendResetEmail(req: express.Request, res: express.Response){
                 // create reusable transporter object using the default SMTP transport
         let transporter = nodemailer.createTransport({
-            host: "a2plcpnl0833.prod.iad2.secureserver.net",
+            host: "p3plzcpnl507357.prod.phx3.secureserver.net",
             port: 465,
             secure: true, // true for 465, false for other ports
             auth: {
