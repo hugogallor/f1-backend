@@ -76,6 +76,13 @@ class F1InfoController{
      const positionsGained = await f1scrape.getPositionsGained(req.body.gridUrl, req.body.resultsUrl);
      res.status(200).send(positionsGained);
     }
+
+    async patchRaceBonus(req: express.Request, res: express.Response){
+        //en los parametros del request viene el race id, actualizamos solo bonus questions
+        const raceIdNumber: number = parseInt(req.params.raceId); 
+        const resultQ = await f1infoDao.patchRaceQuestions(raceIdNumber, req.body.questionList);
+
+    }
 }
 
 export default new F1InfoController();

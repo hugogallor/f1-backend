@@ -27,7 +27,9 @@ export class F1InfoRoutes extends CommonRoutesConfig{
                 .get(f1infoController.getRaceById)
                 .patch(f1infoController.patchRaceResults);
                 
-      
+        this.app.route('/races/bonus/:raceId')
+                //Si hiciera falta podemos regresar las preguntas con get   .get(f1infoController.getRaceById)
+                .patch(f1infoController.patchRaceBonus);
 
         this.app.route('/current')
                 .get(f1infoController.generateCurrentRaceInfo)
