@@ -1,5 +1,7 @@
 "use strict";
 //const axios = require('axios').default;
+// dejo de funcionar porque F1 cambió la pagina. 
+//https://wanago.io/2025/02/17/cheerio-web-scraping/
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -40,10 +42,10 @@ exports.__esModule = true;
 exports.getPositionsGained = void 0;
 var axios_1 = require("axios");
 var cheerio = require('cheerio');
-//console.log("hey")
-var gridUrl = "https://www.formula1.com/en/results/2024/races/1244/italy/starting-grid";
-var resultsUrl = "https://www.formula1.com/en/results/2024/races/1244/italy/race-result";
-//addPositionsGained();
+console.log("hey");
+var gridUrl = "https://www.formula1.com/en/results/2025/races/1270/singapore/starting-grid";
+var resultsUrl = "https://www.formula1.com/en/results/2025/races/1270/singapore/race-result";
+addPositionsGained();
 function getPositionsGained(gridUrl, resultsUrl) {
     return __awaiter(this, void 0, void 0, function () {
         var driverGrid, driverResult, gained, response, $_1, driver, responseR, driverR, error_1;
@@ -60,25 +62,30 @@ function getPositionsGained(gridUrl, resultsUrl) {
                 case 2:
                     response = _a.sent();
                     $_1 = cheerio.load(response.data);
-                    driver = $_1('.f1-table tr td:nth-child(2)');
+                    driver = $_1('[id="results-table"]').find('tbody').find('tr');
                     //console.log(driver)
                     driver.each(function (i, element) {
-                        //console.log(i, $(element).text());
-                        driverGrid.push(parseInt($_1(element).text()));
+                        var driverNumber = $_1(element).find('td');
+                        console.log("DRiver number " + $_1(driverNumber[1]).text());
+                        console.log(i, $_1(element).text());
+                        //driverGrid.push(parseInt($(element).text()));
+                        driverGrid.push(parseInt($_1(driverNumber[1]).text()));
                     });
+                    console.log(driverGrid);
                     return [4 /*yield*/, axios_1["default"].get(resultsUrl)];
                 case 3:
                     responseR = _a.sent();
                     $_1 = cheerio.load(responseR.data);
-                    driverR = $_1('.f1-table tr td:nth-child(2)');
+                    driverR = $_1('[id="results-table"]').find('tbody').find('tr');
                     driverR.each(function (i, element) {
                         //console.log(i, $(element).text());
-                        driverResult.push(parseInt($_1(element).text()));
+                        var driverNumber = $_1(element).find('td');
+                        driverResult.push(parseInt($_1(driverNumber[1]).text()));
                     });
-                    //console.log(driverResult);
+                    console.log(driverResult);
                     gained = driverGrid.map(function (grid, i) { return i - driverResult.indexOf(grid); });
-                    //console.log("gained");
-                    //console.log(gained);
+                    console.log("gained");
+                    console.log(gained);
                     return [2 /*return*/, ({ drivers: driverGrid, gained: gained })];
                 case 4:
                     error_1 = _a.sent();
