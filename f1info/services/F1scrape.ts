@@ -6,7 +6,7 @@
 import axios, { AxiosResponse } from "axios";
 
 const cheerio = require('cheerio');
-console.log("hey")
+//console.log("hey")
 let gridUrl ="https://www.formula1.com/en/results/2025/races/1270/singapore/starting-grid";
 let resultsUrl ="https://www.formula1.com/en/results/2025/races/1270/singapore/race-result";
 addPositionsGained();
@@ -26,14 +26,14 @@ export async function getPositionsGained(gridUrl:string, resultsUrl:string){
     //console.log(driver)
     driver.each((i: number, element: Element) =>{
       const driverNumber = $(element).find('td');
-      console.log("DRiver number " + $(driverNumber[1]).text());
-      console.log(i, $(element).text());
+      //console.log("DRiver number " + $(driverNumber[1]).text());
+      //console.log(i, $(element).text());
       //driverGrid.push(parseInt($(element).text()));
       driverGrid.push(parseInt($(driverNumber[1]).text()));
 
     })
         
-    console.log(driverGrid);
+    //console.log(driverGrid);
   
 
     const  responseR: AxiosResponse  =   await axios.get(resultsUrl);
@@ -48,11 +48,11 @@ export async function getPositionsGained(gridUrl:string, resultsUrl:string){
 
     })
   
-   console.log(driverResult);
+   //console.log(driverResult);
 
     gained = driverGrid.map((grid, i) => i - driverResult.indexOf(grid));
-    console.log("gained");
-    console.log(gained);
+    //console.log("gained");
+    //console.log(gained);
 
        
     return ({drivers:driverGrid, gained:gained});
