@@ -83,6 +83,11 @@ export interface userPicks {
           '$user.championPoints', 0
         ]
       }, 
+      'championDriver': {
+        '$arrayElemAt': [
+          '$user.championDriver', 0
+        ]
+      }, 
       'totalPoints': '$totalPoints'
     }
   }
