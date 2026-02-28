@@ -128,6 +128,8 @@ const log: debug.IDebugger = debug('app: f1info service');
                             if(resultsDriver.positionsGained !== undefined){
                                 //no nos importa si son negativos o no                            
                                 userPicks.race.raceJoker.points = points.joker * resultsDriver.positionsGained;
+                                //mínimo -50 puntios
+                                if( userPicks.race.raceJoker.points < -50) userPicks.race.raceJoker.points = -50;
                                 userPoints += points.joker * resultsDriver.positionsGained;                            
                                 
                             }  else { userPicks.race.raceJoker.points = 0}
